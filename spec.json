@@ -1,0 +1,281 @@
+{
+  "meta": {
+    "titre_rncp": "Responsable Ressources Humaines",
+    "bloc": "2",
+    "intitule_bloc": "Gérer l'environnement professionnel et les relations sociales",
+    "epreuve": "Épreuve individuelle écrite - Étude de cas et Épreuve individuelle écrite et orale - Mise en situation professionnelle",
+    "duree_reelle_min": 210,
+    "note_reflexive": false
+  },
+  "moment_narratif": {
+    "date_fictive": "Lundi 14 avril 2025",
+    "titre_affaire": "Opération Heartbeat : quand le wearable anti-stress génère lui-même le stress",
+    "situation": "Lumio Health vient de terminer une levée de fonds de série B (18 M€) portée par Northgate Capital. Pour accompagner cette croissance, l'effectif a doublé en 14 mois (de 42 à 87 salariés). Une vague d'arrêts maladie répétés (taux d'absentéisme à 9,4 % sur le premier trimestre 2025), deux démissions surprise dans l'équipe Content et une tension palpable entre les équipes Marketing et B2B ont alerté Théo Marczak. Un questionnaire interne informel lancé par Yassine Morel a circulé sans validation RH et a produit des résultats qui font désormais le tour des couloirs. Dans ce contexte, les 11 salariés du collège cadres réclament la mise en place du CSE — seuil de 50 salariés franchi depuis 8 mois sans que l'obligation légale n'ait été respectée. Jakob Rein, représentant de Northgate au board, a explicitement conditionné le déblocage de la seconde tranche (6 M€) à la présentation d'une feuille de route RH crédible incluant conformité sociale, QVCT et RSE avant le 30 juin 2025. Théo Marczak sollicite d'urgence la RRH pour produire un dossier complet.",
+    "enjeu_central": "Rétablir la conformité sociale (CSE en retard), apaiser le climat social dégradé, construire un dispositif QVCT solide et démontrer à Northgate que Lumio Health est un employeur responsable — le tout en moins de onze semaines sous peine de perdre 6 M€ de financement."
+  },
+  "commanditaire": {
+    "nom": "Théo Marczak",
+    "role": "CEO de Lumio Health"
+  },
+  "competences": [
+    {
+      "code": "2.1",
+      "label": "Mettre en œuvre une politique de prévention des risques professionnels",
+      "rncp": "Mettre en œuvre une politique de prévention des risques professionnels en respectant le cadre réglementaire en matière de Santé et Sécurité au Travail (SST) afin d'identifier les situations à risque et d'éviter les accidents ou maladies",
+      "placeholder": "Présentez la cartographie des risques professionnels de Lumio Health (physiques, organisationnels, psychosociaux) en vous appuyant sur les données disponibles (absentéisme, démissions, surcharge de travail post-levée de fonds). Décrivez comment vous construiriez ou actualisiez le Document Unique d'Évaluation des Risques Professionnels (DUERP) en précisant les acteurs impliqués, la méthodologie retenue et les exigences réglementaires respectées (Code du travail, obligations de l'employeur). Identifiez au moins quatre situations à risque propres au contexte Lumio et justifiez leur niveau de criticité.",
+      "min_mots": 280,
+      "mots_cles": [
+        "DUERP",
+        "cartographie des risques",
+        "SST",
+        "obligation réglementaire",
+        "unités de travail",
+        "criticité",
+        "prévention primaire",
+        "Code du travail"
+      ],
+      "conseil": "Ancrez votre réponse dans les données chiffrées du cas (taux d'absentéisme 9,4 %, doublement d'effectif, etc.) et citez les textes réglementaires de référence pour crédibiliser votre démarche auprès du jury."
+    },
+    {
+      "code": "2.2",
+      "label": "Construire un plan de prévention des RPS",
+      "rncp": "Construire un plan de prévention des RPS avec les représentants du personnel ou avec les collaborateurs en identifiant les facteurs de risques, en planifiant des actions de prévention, en élaborant une procédure sur la conduite à tenir en cas de situation difficile et en établissant une procédure d'alerte pour protéger les collaborateurs",
+      "placeholder": "En vous appuyant sur les indicateurs sociaux disponibles (absentéisme, démissions, tensions inter-équipes, questionnaire non validé de Yassine), identifiez les facteurs de RPS spécifiques à Lumio Health (surcharge, incertitude organisationnelle, conflits relationnels, etc.). Construisez un plan de prévention des RPS structuré en trois niveaux (primaire, secondaire, tertiaire), listez au moins quatre actions concrètes avec responsables et calendrier, et proposez une procédure d'alerte opérationnelle adaptée à une structure de 87 salariés en hypercroissance.",
+      "min_mots": 320,
+      "mots_cles": [
+        "facteurs RPS",
+        "modèle Karasek",
+        "indicateurs sociaux",
+        "prévention primaire/secondaire/tertiaire",
+        "procédure d'alerte",
+        "référent RPS",
+        "burn-out",
+        "cellule d'écoute"
+      ],
+      "conseil": "Distinguez clairement les trois niveaux de prévention et nommez des acteurs précis (manager, RH, médecin du travail, SPST) pour chaque action. La procédure d'alerte doit être réaliste et immédiatement applicable chez Lumio."
+    },
+    {
+      "code": "2.3",
+      "label": "Évaluer le climat social de l'entreprise",
+      "rncp": "Évaluer le climat social de l'entreprise dans une démarche de prévention primaire, en rencontrant les collaborateurs et les managers et en centralisant leurs retours d'expériences liés aux pratiques managériales, aux relations interpersonnelles, à l'organisation et aux transformations du travail, pour préparer des actions de médiation",
+      "placeholder": "Concevez une démarche complète d'évaluation du climat social chez Lumio Health. Décrivez la méthodologie retenue (entretiens individuels, focus groups, questionnaire structuré), les outils mobilisés (grille d'entretien, échelle de satisfaction, eNPS, etc.) et les indicateurs qualitatifs et quantitatifs que vous suivrez. Expliquez comment vous gérerez la sensibilité du questionnaire informel déjà diffusé par Yassine Morel et comment vous restituerez les résultats aux équipes dans un climat de confiance. Identifiez au moins trois sources de satisfaction et trois sources d'insatisfaction probables au regard du contexte.",
+      "min_mots": 300,
+      "mots_cles": [
+        "diagnostic social",
+        "eNPS",
+        "focus group",
+        "grille d'entretien",
+        "indicateurs qualitatifs",
+        "satisfaction",
+        "engagement",
+        "restitution",
+        "médiation"
+      ],
+      "conseil": "Montrez que vous savez distinguer les outils de mesure (quantitatifs vs qualitatifs) et justifiez votre choix méthodologique au regard de la taille et de la culture de Lumio. Soyez attentif à la question de l'anonymat et de la confidentialité."
+    },
+    {
+      "code": "2.4",
+      "label": "Conduire des plans d'action QVCT",
+      "rncp": "Conduire des plans d'action QVCT en veillant au respect des enjeux de toutes les parties prenantes pour améliorer les conditions de travail, favoriser l'engagement et accroître la performance collective de l'entreprise",
+      "placeholder": "Élaborez un plan d'action QVCT complet pour Lumio Health, couvrant la période avril–juin 2025. Le plan devra identifier au moins six actions concrètes, préciser pour chacune le responsable (direction, RH, managers, futurs élus CSE, etc.), le calendrier, les ressources nécessaires et les indicateurs de suivi. Montrez comment ce plan répond simultanément aux enjeux des collaborateurs, des managers, de la direction et de l'investisseur Northgate. Proposez un tableau de bord QVCT avec au moins cinq KPIs mesurables.",
+      "min_mots": 350,
+      "mots_cles": [
+        "plan d'action QVCT",
+        "parties prenantes",
+        "indicateurs KPI",
+        "tableau de bord",
+        "engagement collaborateur",
+        "conditions de travail",
+        "performance collective",
+        "calendrier",
+        "suivi"
+      ],
+      "conseil": "Structurez votre plan sous forme de tableau (action / responsable / échéance / indicateur) pour en faciliter la lecture par le jury. Veillez à ce que chaque action soit directement reliée à une problématique identifiée dans le cas."
+    },
+    {
+      "code": "2.5",
+      "label": "Contribuer à la mise en œuvre de la politique RSE/RTE et DD",
+      "rncp": "Contribuer à la mise en œuvre de la politique RSE/RTE et DD en menant une veille de l'environnement juridique et en intégrant les aspects techniques et sociaux propres à l'entreprise pour accompagner les parties prenantes dans la recherche et la mise en œuvre de solutions concrétisant l'engagement sociétal et environnemental de l'entreprise",
+      "placeholder": "Analysez les enjeux RSE spécifiques à Lumio Health (medtech, données de santé, wearables, hypercroissance, diversité, impact environnemental des objets connectés). Identifiez les parties prenantes internes et externes concernées. Proposez au moins deux actions de sensibilisation aux enjeux RSE (avec modalités détaillées), au moins une action de communication interne et une externe (objectif, message, canal, public cible) renforçant la marque employeur. Expliquez en quoi ces actions sont alignées sur les attentes de Northgate Capital et sur les obligations RSE applicables à Lumio.",
+      "min_mots": 300,
+      "mots_cles": [
+        "RSE",
+        "développement durable",
+        "marque employeur",
+        "parties prenantes",
+        "communication interne/externe",
+        "sensibilisation",
+        "données de santé",
+        "impact environnemental",
+        "CSRD"
+      ],
+      "conseil": "Valorisez la dimension medtech de Lumio : la collecte de données biométriques et la promesse santé de l'entreprise créent une cohérence narrative forte avec une politique RSE crédible. Appuyez-vous sur des obligations réglementaires récentes (CSRD, loi Pacte) pour ancrer votre réponse."
+    },
+    {
+      "code": "2.6",
+      "label": "Maintenir à jour les données en réalisant une veille des évolutions du droit social",
+      "rncp": "Maintenir à jour les données en réalisant une veille des évolutions du droit social au moyen de sources d'informations diversifiées et en rédigeant des notes de synthèse organisées par contenu (RSE - RTE, Qualité de Vie et des Conditions de Travail, inclusion) à destination de la direction et des collaborateurs pour assurer la bonne information de toutes les parties prenantes de l'entreprise",
+      "placeholder": "Rédigez une note de synthèse à destination de Théo Marczak portant sur les évolutions récentes du droit social applicables à Lumio Health sur trois thématiques : (1) QVCT et prévention des RPS, (2) représentation du personnel (CSE, obligations légales), (3) RSE/inclusion. Pour chaque thématique, citez au moins deux sources fiables et récentes (Légifrance, service-public.fr, INRS, ANACT, blogs spécialisés). Indiquez les données extraites ou extractibles de la BDESE pertinentes pour chaque thème. La note doit être structurée avec introduction, développement thématique et synthèse opérationnelle.",
+      "min_mots": 320,
+      "mots_cles": [
+        "veille juridique",
+        "note de synthèse",
+        "BDESE",
+        "ANACT",
+        "INRS",
+        "Légifrance",
+        "sources diversifiées",
+        "droit social",
+        "inclusion",
+        "QVCT"
+      ],
+      "conseil": "Soignez la structure formelle de la note (en-tête, objet, destinataire, date, plan apparent) pour montrer que vous maîtrisez les codes professionnels. Citez des textes ou publications datés de 2023-2025 pour démontrer l'actualité de votre veille."
+    },
+    {
+      "code": "2.7",
+      "label": "Organiser les élections du CSE",
+      "rncp": "Organiser les élections du CSE, en respectant les obligations et échéanciers légaux, en s'assurant que chaque collaborateur ait la capacité d'exprimer son vote, afin de garantir l'intérêt de chacun et le climat social",
+      "placeholder": "Lumio Health n'a pas encore mis en place son CSE malgré le franchissement du seuil de 50 salariés depuis 8 mois. Décrivez le processus complet d'organisation des élections CSE en précisant : les étapes légales obligatoires (invitation à négocier, protocole pré-électoral, collèges électoraux, conditions d'éligibilité et d'électorat), le calendrier rétrospectif à rebours de la date d'élection, les modalités de vote accessibles à tous (vote électronique, accessibilité), et les risques juridiques liés au retard déjà accumulé. Identifiez les compétences, attributions et moyens du CSE (heures de délégation, BDES, budget).",
+      "min_mots": 310,
+      "mots_cles": [
+        "CSE",
+        "protocole pré-électoral",
+        "collèges électoraux",
+        "heures de délégation",
+        "éligibilité",
+        "vote électronique",
+        "obligations légales",
+        "sanctions",
+        "BDES",
+        "mandats"
+      ],
+      "conseil": "Insistez sur le risque juridique lié au retard (délit d'entrave potentiel, mise en demeure de l'inspection du travail) pour montrer l'urgence de la situation. Un rétroplanning sous forme de tableau sera particulièrement apprécié du jury."
+    },
+    {
+      "code": "2.8",
+      "label": "Planifier l'agenda social",
+      "rncp": "Planifier l'agenda social avec la direction et les instances représentatives du personnel, en respectant la réglementation en vigueur et en accompagnant les membres élus et les délégués syndicaux désignés, pour préparer les négociations collectives",
+      "placeholder": "Une fois le CSE constitué, Théo Marczak vous demande de construire l'agenda social pour le second semestre 2025. Proposez un agenda social complet distinguant : réunions ordinaires et extraordinaires du CSE, consultations obligatoires (orientations stratégiques, situation économique et financière, politique sociale), thèmes de négociation obligatoire (NAO, égalité professionnelle, QVCT). Rédigez un exemple d'ordre du jour et de convocation pour la première réunion ordinaire du CSE, ainsi qu'une note argumentée présentant les enjeux à la direction. Expliquez comment vous accompagnez les élus nouvellement désignés dans leur prise de fonction.",
+      "min_mots": 300,
+      "mots_cles": [
+        "agenda social",
+        "NAO",
+        "consultation obligatoire",
+        "ordre du jour",
+        "convocation",
+        "procès-verbal",
+        "délégué syndical",
+        "négociation collective",
+        "accompagnement élus"
+      ],
+      "conseil": "Distinguez bien consultation (avis attendu du CSE) et information (simple présentation) pour montrer votre maîtrise technique. La qualité rédactionnelle des documents types (convocation, ordre du jour) sera évaluée par le jury."
+    },
+    {
+      "code": "2.9",
+      "label": "Participer aux négociations avec les partenaires sociaux",
+      "rncp": "Participer aux négociations avec les partenaires sociaux, en identifiant les thèmes des négociations obligatoires (organisation du travail, diversité et égalité, handicap, GEPP, etc.), en préparant des éléments de réponses aux questions du CSE et en assurant le suivi des réunions afin de contribuer à l'animation d'un dialogue social constructif",
+      "placeholder": "Lors de la première réunion de consultation du CSE sur la politique sociale de Lumio Health, les représentants élus soulèvent trois points de blocage : (1) l'absence de politique de télétravail formalisée malgré des pratiques disparates, (2) l'inégalité perçue des augmentations entre équipes Marketing et B2B, (3) le manque de visibilité sur les plans de formation. Pour chaque point de blocage, préparez les arguments que vous soumettrez à la direction, les éléments de réponse que vous apporterez aux élus, et décrivez la posture professionnelle que vous adopterez en séance. Proposez également un suivi post-réunion (procès-verbal, actions, délais).",
+      "min_mots": 280,
+      "mots_cles": [
+        "négociation collective",
+        "points de blocage",
+        "posture professionnelle",
+        "dialogue social",
+        "télétravail",
+        "égalité professionnelle",
+        "GEPP",
+        "procès-verbal",
+        "suivi de réunion"
+      ],
+      "conseil": "Cette compétence est évaluée à l'oral en mise en situation professionnelle : entraînez-vous à formuler vos réponses de façon calme, factuelle et constructive. Montrez que vous savez gérer la tension sans vous laisser déstabiliser ni adopter une posture défensive."
+    }
+  ],
+  "livrable": {
+    "format": "Dossier écrit structuré en deux parties : Partie A — Étude de cas QVCT et environnement professionnel (compétences 2.1 à 2.5, réponses organisées par compétence avec titres apparents) ; Partie B — Préparation à la mise en situation professionnelle : animation du dialogue social (compétences 2.6 à 2.9, incluant documents types rédigés : note de synthèse, rétroplanning élections CSE, agenda social, ordre du jour, éléments de réponse aux élus). Chaque partie doit comporter une introduction contextualisant Lumio Health et une conclusion opérationnelle.",
+    "total_mots_min": 520,
+    "note_reflexive_min": 100
+  },
+  "jury_criteres_eliminatoires": [
+    "Aucune référence au cadre réglementaire SST (Code du travail, DUERP obligatoire) : la compétence 2.1 ne peut être validée sans ancrage légal explicite.",
+    "Absence de distinction claire des rôles et responsabilités des parties prenantes (direction, RH, managers, élus CSE, médecin du travail, SPST) dans le plan QVCT et le plan RPS : les critères d'évaluation exigent explicitement l'identification de l'ensemble des acteurs.",
+    "Aucun indicateur de suivi ou de performance (KPI) proposé pour le plan QVCT ou le plan RPS : les critères d'évaluation de 2.4 et 2.2 font de ce point une condition sine qua non de validation.",
+    "Méconnaissance avérée du processus légal d'organisation des élections CSE (étapes, délais, collèges, conditions d'éligibilité) rendant la réponse à 2.7 non conforme aux obligations légales.",
+    "Absence totale de structuration de la note de synthèse (2.6) ou sources inexistantes/non fiables : une note sans plan apparent et sans références datées est éliminatoire.",
+    "Posture professionnelle inadaptée lors de la mise en situation orale (2.9) : ton agressif, déstabilisation face aux objections des élus, ou incapacité à reformuler les points de blocage constituent un critère d'échec à l'épreuve orale.",
+    "Plan d'action QVCT (2.4) sans aucun calendrier ni échéance : un plan non temporalisé et non priorisé ne répond pas aux critères de réalisabilité exigés par le référentiel."
+  ],
+  "documents_fictifs": [
+    {
+      "id": "DOC-01",
+      "type": "email",
+      "expediteur": "Théo Marczak (CEO)",
+      "objet": "URGENT — Feuille de route RH avant le 30 juin : engagement Northgate",
+      "role_narratif": "Déclencheur principal de la mission. Théo expose la pression de Jakob Rein, le retard sur le CSE et demande à la RRH un dossier complet QVCT + conformité sociale en 11 semaines. Ton directif, légère panique dissimulée.",
+      "acte": 1
+    },
+    {
+      "id": "DOC-02",
+      "type": "tableau_excel_anonymise",
+      "expediteur": "Service paie / RH interne",
+      "objet": "Données sociales T1 2025 — Lumio Health (export SIRH)",
+      "role_narratif": "Fournit les données chiffrées clés : taux d'absentéisme 9,4 %, 2 démissions Content, 3 arrêts maladie longue durée Marketing, turn-over 18 % sur 12 mois, 6 heures sup non récupérées en moyenne par semaine. Sert de base factuelle pour 2.1, 2.2, 2.3 et 2.4.",
+      "acte": 1
+    },
+    {
+      "id": "DOC-03",
+      "type": "message_slack",
+      "expediteur": "Yassine Morel (Content) → channel #general",
+      "objet": "Résultats de mon petit sondage 😬 — à discuter en réunion ?",
+      "role_narratif": "Yassine a diffusé un questionnaire maison sur le bien-être au travail sans validation RH. 61 % des répondants déclarent se sentir 'souvent stressés', 44 % jugent la charge de travail 'excessive'. Le post a généré 23 réactions emoji dont plusieurs 🔥 et 😬. Crée une tension sur la légitimité et la méthodologie de l'évaluation du climat social (2.3).",
+      "acte": 2
+    },
+    {
+      "id": "DOC-04",
+      "type": "courrier_recommande",
+      "expediteur": "Collectif de 11 salariés cadres — Lumio Health",
+      "objet": "Mise en demeure informelle — Obligation de mise en place du CSE",
+      "role_narratif": "Les cadres formalisent par écrit leur demande de mise en place immédiate du CSE, rappelant que le seuil de 50 salariés a été franchi en août 2024 et que l'entreprise est en infraction depuis 8 mois. Ils mentionnent avoir contacté l'inspection du travail à titre informatif. Déclenche l'urgence juridique pour 2.7 et 2.8.",
+      "acte": 2
+    },
+    {
+      "id": "DOC-05",
+      "type": "compte_rendu_comite_direction",
+      "expediteur": "Théo Marczak — CoDir du 7 avril 2025",
+      "objet": "Point stratégique : tension Marketing / B2B et politique de rémunération",
+      "role_narratif": "Sonia Ferracci (DirMkt) et Camille Ott (B2B) s'opposent ouvertement sur la répartition des primes liées au partenariat Northgate. Théo tente de modérer sans trancher. Le compte-rendu montre des zones grises sur les critères d'attribution des augmentations — matière directe pour 2.2 (RPS conflits interpersonnels), 2.3 (sources d'insatisfaction) et 2.9 (point de blocage en négociation).",
+      "acte": 3
+    },
+    {
+      "id": "DOC-06",
+      "type": "email",
+      "expediteur": "Jakob Rein (Northgate Capital) → Théo Marczak",
+      "objet": "Due diligence sociale — checklist pré-déblocage tranche B",
+      "role_narratif": "Jakob liste les 8 points que Northgate vérifiera avant de débloquer les 6 M€ : CSE constitué, DUERP à jour, politique QVCT formalisée, indicateurs RSE publiés, index égalité H/F calculé, accord télétravail, plan de formation 2025 validé, note de synthèse droit social. Document de référence pour l'ensemble du dossier, crée l'enjeu de performance pour 2.5 et 2.6.",
+      "acte": 3
+    },
+    {
+      "id": "DOC-07",
+      "type": "rapport_medecin_travail",
+      "expediteur": "Dr. Isabelle Fontaine — SPST Île-de-France",
+      "objet": "Bilan de la visite périodique de l'entreprise — Lumio Health — mars 2025",
+      "role_narratif": "Le médecin du travail signale : 4 signalements de syndrome d'épuisement professionnel sur 6 mois, absence de référent RPS identifié, postes de travail en open space non conformes aux normes acoustiques. Elle recommande formellement la mise à jour du DUERP et la désignation d'un référent RPS avant fin mai 2025. Document clé pour 2.1 et 2.2.",
+      "acte": 4
+    },
+    {
+      "id": "DOC-08",
+      "type": "note_interne",
+      "expediteur": "Sonia Ferracci (DirMkt) → RRH (confidentiel)",
+      "objet": "En off — ce que je n'ai pas dit en CoDir",
+      "role_narratif": "Sonia confie à la RRH que deux membres de son équipe lui ont dit chercher activement un autre poste, que la pression exercée par Théo depuis la levée de fonds a changé l'ambiance, et qu'elle-même ressent une 'fatigue managériale'. Elle demande si un accompagnement confidentiel est possible. Alimente 2.3 (évaluation climat social) et 2.4 (plan QVCT incluant soutien managérial).",
+      "acte": 5
+    }
+  ],
+  "easter_egg": {
+    "type": "whatsapp",
+    "personnages": [
+      "Camille Ott",
+      "Yassine Morel"
+    ],
+    "tension_revelee": "Dans une conversation WhatsApp datée du 9 avril 2025 à 23h14, Camille écrit à Yassine : 'Ton sondage a tout fait péter… mais franchement t'as eu raison. Théo sait très bien ce qui se passe, il fait juste semblant de découvrir pour que ce soit la RH qui porte le bébé. La levée de fonds a tout écrasé, on est devenus des ressources comme les autres. 🙃' — Yassine répond : 'Je sais. Et Sonia m'a dit qu'elle cherche aussi. Garde ça pour toi.' Cette conversation révèle que la crise sociale est perçue en interne comme instrumentalisée par le CEO pour externaliser la responsabilité sur la RH, et que la DirMkt envisage elle-même de partir — information que la RRH devra intégrer discrètement dans son diagnostic sans en révéler la source."
+  }
+}
