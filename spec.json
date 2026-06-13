@@ -1,17 +1,17 @@
 {
   "meta": {
-    "titre_rncp": "Responsable Ressources Humaines",
+    "titre_rncp": "Manager des Ressources Humaines",
     "bloc": "2",
     "intitule_bloc": "Gérer l'environnement professionnel et les relations sociales",
-    "epreuve": "Épreuve individuelle écrite - Étude de cas et Épreuve individuelle écrite et orale - Mise en situation professionnelle",
+    "epreuve": "Épreuve individuelle écrite - Étude de cas : QVCT et environnement professionnel; Épreuve individuelle écrite et orale - Mise en situation professionnelle : animation du dialogue social",
     "duree_reelle_min": 210,
     "note_reflexive": false
   },
   "moment_narratif": {
-    "date_fictive": "Lundi 14 avril 2025",
-    "titre_affaire": "Opération Heartbeat : quand le wearable anti-stress génère lui-même le stress",
-    "situation": "Lumio Health vient de terminer une levée de fonds de série B (18 M€) portée par Northgate Capital. Pour accompagner cette croissance, l'effectif a doublé en 14 mois (de 42 à 87 salariés). Une vague d'arrêts maladie répétés (taux d'absentéisme à 9,4 % sur le premier trimestre 2025), deux démissions surprise dans l'équipe Content et une tension palpable entre les équipes Marketing et B2B ont alerté Théo Marczak. Un questionnaire interne informel lancé par Yassine Morel a circulé sans validation RH et a produit des résultats qui font désormais le tour des couloirs. Dans ce contexte, les 11 salariés du collège cadres réclament la mise en place du CSE — seuil de 50 salariés franchi depuis 8 mois sans que l'obligation légale n'ait été respectée. Jakob Rein, représentant de Northgate au board, a explicitement conditionné le déblocage de la seconde tranche (6 M€) à la présentation d'une feuille de route RH crédible incluant conformité sociale, QVCT et RSE avant le 30 juin 2025. Théo Marczak sollicite d'urgence la RRH pour produire un dossier complet.",
-    "enjeu_central": "Rétablir la conformité sociale (CSE en retard), apaiser le climat social dégradé, construire un dispositif QVCT solide et démontrer à Northgate que Lumio Health est un employeur responsable — le tout en moins de onze semaines sous peine de perdre 6 M€ de financement."
+    "date_fictive": "14 mars 2025",
+    "titre_affaire": "Opération Fréquence Silencieuse",
+    "situation": "Lumio Health traverse une période de turbulences majeures. Après l'annonce surprise de la fusion partielle avec Northgate Medtech (portée par Jakob Rein), une vague d'inquiétude s'est propagée dans les équipes parisiennes. Les indicateurs sociaux se dégradent : absentéisme en hausse de 22% en deux mois, trois démissions inexpliquées dans l'équipe Content, et une pétition informelle circule chez les commerciaux B2B suite à des changements unilatéraux d'objectifs décidés par Sonia Ferracci sans concertation. Le CSE, dont le mandat arrive à échéance dans six semaines, n'a pas été consulté sur le projet de fusion. Théo Marczak, débordé par les négociations avec Northgate, mandate le/la RRH pour prendre en charge l'ensemble du dossier social avant que la situation ne dégénère.",
+    "enjeu_central": "Désamorcer la crise sociale latente, remettre en conformité le dialogue social avant l'expiration du CSE, construire un plan QVCT crédible pour les équipes fragilisées, et piloter la communication RSE dans un contexte de transformation organisationnelle sensible."
   },
   "commanditaire": {
     "nom": "Théo Marczak",
@@ -22,260 +22,621 @@
       "code": "2.1",
       "label": "Mettre en œuvre une politique de prévention des risques professionnels",
       "rncp": "Mettre en œuvre une politique de prévention des risques professionnels en respectant le cadre réglementaire en matière de Santé et Sécurité au Travail (SST) afin d'identifier les situations à risque et d'éviter les accidents ou maladies",
-      "placeholder": "Présentez la cartographie des risques professionnels de Lumio Health (physiques, organisationnels, psychosociaux) en vous appuyant sur les données disponibles (absentéisme, démissions, surcharge de travail post-levée de fonds). Décrivez comment vous construiriez ou actualisiez le Document Unique d'Évaluation des Risques Professionnels (DUERP) en précisant les acteurs impliqués, la méthodologie retenue et les exigences réglementaires respectées (Code du travail, obligations de l'employeur). Identifiez au moins quatre situations à risque propres au contexte Lumio et justifiez leur niveau de criticité.",
-      "min_mots": 280,
+      "placeholder": "À partir des données fournies dans le mail de Théo Marczak et du tableau de bord RH (document 1 et 2), cartographiez les risques professionnels et psychosociaux présents chez Lumio Health. Formalisez votre analyse sous la forme d'un extrait de DUER ou d'un document équivalent structuré, en précisant pour chaque risque identifié : la nature du risque, la population exposée, le niveau de gravité/probabilité, et les mesures existantes ou à prévoir. Justifiez la prise en compte du cadre réglementaire SST applicable.",
+      "min_mots": 250,
       "mots_cles": [
-        "DUERP",
-        "cartographie des risques",
+        "DUER",
+        "risques professionnels",
+        "risques psychosociaux",
+        "cartographie",
         "SST",
-        "obligation réglementaire",
-        "unités de travail",
-        "criticité",
-        "prévention primaire",
-        "Code du travail"
+        "réglementation",
+        "gravité",
+        "probabilité",
+        "évaluation"
       ],
-      "conseil": "Ancrez votre réponse dans les données chiffrées du cas (taux d'absentéisme 9,4 %, doublement d'effectif, etc.) et citez les textes réglementaires de référence pour crédibiliser votre démarche auprès du jury."
+      "conseil": "Appuyez-vous sur les chiffres concrets du tableau de bord (absentéisme +22%, démissions) pour hiérarchiser les risques. Citez au moins un texte réglementaire applicable (Code du travail, décret de 2001 sur le DUER). Évitez les généralités : le jury attend une grille structurée, pas un texte descriptif."
     },
     {
       "code": "2.2",
       "label": "Construire un plan de prévention des RPS",
       "rncp": "Construire un plan de prévention des RPS avec les représentants du personnel ou avec les collaborateurs en identifiant les facteurs de risques, en planifiant des actions de prévention, en élaborant une procédure sur la conduite à tenir en cas de situation difficile et en établissant une procédure d'alerte pour protéger les collaborateurs",
-      "placeholder": "En vous appuyant sur les indicateurs sociaux disponibles (absentéisme, démissions, tensions inter-équipes, questionnaire non validé de Yassine), identifiez les facteurs de RPS spécifiques à Lumio Health (surcharge, incertitude organisationnelle, conflits relationnels, etc.). Construisez un plan de prévention des RPS structuré en trois niveaux (primaire, secondaire, tertiaire), listez au moins quatre actions concrètes avec responsables et calendrier, et proposez une procédure d'alerte opérationnelle adaptée à une structure de 87 salariés en hypercroissance.",
-      "min_mots": 320,
+      "placeholder": "Sur la base de votre analyse des RPS chez Lumio Health (contexte de fusion, pétition B2B, démissions Content), construisez un plan de prévention des RPS. Votre plan devra : identifier les facteurs de risques spécifiques à l'entreprise avec les indicateurs sociaux mobilisés, proposer au moins trois actions de prévention ou de sensibilisation concrètes (avec modalités, public cible, calendrier), et définir une procédure d'alerte adaptée à la structure de Lumio Health (moins de 100 salariés, contexte de transformation).",
+      "min_mots": 300,
       "mots_cles": [
-        "facteurs RPS",
-        "modèle Karasek",
+        "RPS",
+        "facteurs de risques",
         "indicateurs sociaux",
-        "prévention primaire/secondaire/tertiaire",
+        "prévention primaire",
         "procédure d'alerte",
-        "référent RPS",
-        "burn-out",
-        "cellule d'écoute"
+        "sensibilisation",
+        "formation",
+        "représentants du personnel",
+        "organisation"
       ],
-      "conseil": "Distinguez clairement les trois niveaux de prévention et nommez des acteurs précis (manager, RH, médecin du travail, SPST) pour chaque action. La procédure d'alerte doit être réaliste et immédiatement applicable chez Lumio."
+      "conseil": "Distinguez clairement les trois niveaux de prévention (primaire, secondaire, tertiaire) même si vous n'en traitez qu'un ou deux. La procédure d'alerte doit être opérationnelle et nommer des interlocuteurs identifiés chez Lumio (ex. : référent RPS, manager, RRH). Les indicateurs doivent être des données mesurables, pas des impressions."
     },
     {
       "code": "2.3",
       "label": "Évaluer le climat social de l'entreprise",
       "rncp": "Évaluer le climat social de l'entreprise dans une démarche de prévention primaire, en rencontrant les collaborateurs et les managers et en centralisant leurs retours d'expériences liés aux pratiques managériales, aux relations interpersonnelles, à l'organisation et aux transformations du travail, pour préparer des actions de médiation",
-      "placeholder": "Concevez une démarche complète d'évaluation du climat social chez Lumio Health. Décrivez la méthodologie retenue (entretiens individuels, focus groups, questionnaire structuré), les outils mobilisés (grille d'entretien, échelle de satisfaction, eNPS, etc.) et les indicateurs qualitatifs et quantitatifs que vous suivrez. Expliquez comment vous gérerez la sensibilité du questionnaire informel déjà diffusé par Yassine Morel et comment vous restituerez les résultats aux équipes dans un climat de confiance. Identifiez au moins trois sources de satisfaction et trois sources d'insatisfaction probables au regard du contexte.",
-      "min_mots": 300,
+      "placeholder": "Vous souhaitez mener une enquête clima social chez Lumio Health avant de lancer le plan QVCT. Décrivez la méthodologie complète que vous déploieriez : outils utilisés (entretiens, questionnaires, observations), population ciblée, grille d'entretien avec au moins cinq exemples de questions ouvertes, indicateurs de satisfaction et d'engagement retenus. Analysez ensuite les signaux de satisfaction et d'insatisfaction déjà visibles dans les documents fournis.",
+      "min_mots": 280,
       "mots_cles": [
-        "diagnostic social",
-        "eNPS",
-        "focus group",
-        "grille d'entretien",
-        "indicateurs qualitatifs",
+        "clima social",
+        "enquête",
+        "méthodologie",
+        "entretiens",
+        "questionnaire",
+        "indicateurs",
         "satisfaction",
         "engagement",
-        "restitution",
-        "médiation"
+        "pratiques managériales",
+        "transformation du travail"
       ],
-      "conseil": "Montrez que vous savez distinguer les outils de mesure (quantitatifs vs qualitatifs) et justifiez votre choix méthodologique au regard de la taille et de la culture de Lumio. Soyez attentif à la question de l'anonymat et de la confidentialité."
+      "conseil": "Le jury valorise la rigueur méthodologique : expliquez POURQUOI vous choisissez tel outil plutôt qu'un autre dans le contexte Lumio. Les questions de la grille d'entretien doivent porter sur les quatre dimensions : pratiques managériales, relations interpersonnelles, organisation, transformations. N'oubliez pas d'identifier qui analyse les résultats et comment ils seront restitués."
     },
     {
       "code": "2.4",
       "label": "Conduire des plans d'action QVCT",
       "rncp": "Conduire des plans d'action QVCT en veillant au respect des enjeux de toutes les parties prenantes pour améliorer les conditions de travail, favoriser l'engagement et accroître la performance collective de l'entreprise",
-      "placeholder": "Élaborez un plan d'action QVCT complet pour Lumio Health, couvrant la période avril–juin 2025. Le plan devra identifier au moins six actions concrètes, préciser pour chacune le responsable (direction, RH, managers, futurs élus CSE, etc.), le calendrier, les ressources nécessaires et les indicateurs de suivi. Montrez comment ce plan répond simultanément aux enjeux des collaborateurs, des managers, de la direction et de l'investisseur Northgate. Proposez un tableau de bord QVCT avec au moins cinq KPIs mesurables.",
-      "min_mots": 350,
+      "placeholder": "Construisez un plan d'action QVCT complet pour Lumio Health, en réponse aux problématiques identifiées (fusion, tension B2B, isolement équipe Content). Le plan doit : lister les actions par axe (conditions de travail, engagement, management, organisation), préciser pour chaque action le porteur, le calendrier, les ressources nécessaires et les parties prenantes impliquées (direction, managers, CSE, collaborateurs), et proposer au moins quatre indicateurs de suivi et de performance du dispositif.",
+      "min_mots": 320,
       "mots_cles": [
-        "plan d'action QVCT",
+        "QVCT",
+        "plan d'action",
         "parties prenantes",
-        "indicateurs KPI",
-        "tableau de bord",
-        "engagement collaborateur",
         "conditions de travail",
+        "engagement",
         "performance collective",
-        "calendrier",
-        "suivi"
+        "indicateurs de suivi",
+        "pilotage",
+        "managers",
+        "CSE"
       ],
-      "conseil": "Structurez votre plan sous forme de tableau (action / responsable / échéance / indicateur) pour en faciliter la lecture par le jury. Veillez à ce que chaque action soit directement reliée à une problématique identifiée dans le cas."
+      "conseil": "Présentez votre plan sous forme de tableau ou de fiche action pour en faciliter la lecture. Les indicateurs de performance doivent être SMART (ex. : taux d'absentéisme, eNPS, taux de participation). Montrez que vous intégrez les enjeux de la direction (performance), des managers (faisabilité) ET des collaborateurs (sens, équité) : c'est ce que le jury veut voir."
     },
     {
       "code": "2.5",
       "label": "Contribuer à la mise en œuvre de la politique RSE/RTE et DD",
       "rncp": "Contribuer à la mise en œuvre de la politique RSE/RTE et DD en menant une veille de l'environnement juridique et en intégrant les aspects techniques et sociaux propres à l'entreprise pour accompagner les parties prenantes dans la recherche et la mise en œuvre de solutions concrétisant l'engagement sociétal et environnemental de l'entreprise",
-      "placeholder": "Analysez les enjeux RSE spécifiques à Lumio Health (medtech, données de santé, wearables, hypercroissance, diversité, impact environnemental des objets connectés). Identifiez les parties prenantes internes et externes concernées. Proposez au moins deux actions de sensibilisation aux enjeux RSE (avec modalités détaillées), au moins une action de communication interne et une externe (objectif, message, canal, public cible) renforçant la marque employeur. Expliquez en quoi ces actions sont alignées sur les attentes de Northgate Capital et sur les obligations RSE applicables à Lumio.",
+      "placeholder": "Lumio Health souhaite renforcer sa politique RSE dans le cadre de la fusion avec Northgate. Analysez les enjeux RSE spécifiques à Lumio (medtech, wearables, données de santé, relations fournisseurs). Proposez deux actions de sensibilisation interne aux enjeux RSE (avec modalités précises) et deux actions de communication (une interne, une externe), en précisant pour chacune : l'objectif, le message clé, le canal, le public cible. Montrez comment ces actions renforcent la marque employeur et l'image de Lumio.",
       "min_mots": 300,
       "mots_cles": [
         "RSE",
         "développement durable",
-        "marque employeur",
         "parties prenantes",
-        "communication interne/externe",
         "sensibilisation",
-        "données de santé",
-        "impact environnemental",
-        "CSRD"
+        "marque employeur",
+        "communication interne",
+        "communication externe",
+        "enjeux sociétaux",
+        "image entreprise",
+        "medtech"
       ],
-      "conseil": "Valorisez la dimension medtech de Lumio : la collecte de données biométriques et la promesse santé de l'entreprise créent une cohérence narrative forte avec une politique RSE crédible. Appuyez-vous sur des obligations réglementaires récentes (CSRD, loi Pacte) pour ancrer votre réponse."
+      "conseil": "Ne confondez pas RSE et communication RSE : commencez par analyser les enjeux réels (ex. : éthique des données de santé, impact carbone des wearables, égalité F/H dans la tech). Les actions de communication doivent être distinctes des actions de sensibilisation. Reliez explicitement chaque action à un enjeu RSE identifié chez Lumio."
     },
     {
       "code": "2.6",
       "label": "Maintenir à jour les données en réalisant une veille des évolutions du droit social",
       "rncp": "Maintenir à jour les données en réalisant une veille des évolutions du droit social au moyen de sources d'informations diversifiées et en rédigeant des notes de synthèse organisées par contenu (RSE - RTE, Qualité de Vie et des Conditions de Travail, inclusion) à destination de la direction et des collaborateurs pour assurer la bonne information de toutes les parties prenantes de l'entreprise",
-      "placeholder": "Rédigez une note de synthèse à destination de Théo Marczak portant sur les évolutions récentes du droit social applicables à Lumio Health sur trois thématiques : (1) QVCT et prévention des RPS, (2) représentation du personnel (CSE, obligations légales), (3) RSE/inclusion. Pour chaque thématique, citez au moins deux sources fiables et récentes (Légifrance, service-public.fr, INRS, ANACT, blogs spécialisés). Indiquez les données extraites ou extractibles de la BDESE pertinentes pour chaque thème. La note doit être structurée avec introduction, développement thématique et synthèse opérationnelle.",
-      "min_mots": 320,
+      "placeholder": "Rédigez une note de synthèse à destination de Théo Marczak portant sur les évolutions récentes du droit social applicables à la situation de Lumio Health (fusion/transformation, renouvellement CSE, obligations QVCT, BDESE). Décrivez la démarche de veille que vous avez mise en place (sources, fréquence, périmètre), et corréllez les données extraites de la BDESE fictive (document 5) aux thématiques traitées. La note doit être structurée avec des titres et sous-titres identifiables.",
+      "min_mots": 300,
       "mots_cles": [
         "veille juridique",
+        "droit social",
         "note de synthèse",
         "BDESE",
-        "ANACT",
-        "INRS",
-        "Légifrance",
-        "sources diversifiées",
-        "droit social",
+        "sources",
+        "QVCT",
         "inclusion",
-        "QVCT"
+        "RSE",
+        "évolutions réglementaires",
+        "direction"
       ],
-      "conseil": "Soignez la structure formelle de la note (en-tête, objet, destinataire, date, plan apparent) pour montrer que vous maîtrisez les codes professionnels. Citez des textes ou publications datés de 2023-2025 pour démontrer l'actualité de votre veille."
+      "conseil": "La note de synthèse n'est pas un résumé brut : elle doit hiérarchiser les informations et formuler des préconisations actionnables pour Théo Marczak. Citez des sources réelles et variées (legifrance.gouv.fr, Anact, dares.travail.gouv.fr, blogs spécialisés). Les données BDESE doivent apparaître dans le corps de la note, pas en annexe isolée."
     },
     {
       "code": "2.7",
       "label": "Organiser les élections du CSE",
       "rncp": "Organiser les élections du CSE, en respectant les obligations et échéanciers légaux, en s'assurant que chaque collaborateur ait la capacité d'exprimer son vote, afin de garantir l'intérêt de chacun et le climat social",
-      "placeholder": "Lumio Health n'a pas encore mis en place son CSE malgré le franchissement du seuil de 50 salariés depuis 8 mois. Décrivez le processus complet d'organisation des élections CSE en précisant : les étapes légales obligatoires (invitation à négocier, protocole pré-électoral, collèges électoraux, conditions d'éligibilité et d'électorat), le calendrier rétrospectif à rebours de la date d'élection, les modalités de vote accessibles à tous (vote électronique, accessibilité), et les risques juridiques liés au retard déjà accumulé. Identifiez les compétences, attributions et moyens du CSE (heures de délégation, BDES, budget).",
-      "min_mots": 310,
+      "placeholder": "Le mandat du CSE de Lumio Health expire dans six semaines. Théo Marczak vous confie l'organisation des élections. Rédigez un plan d'action détaillé respectant l'ensemble des étapes légales obligatoires : invitation à négocier le protocole, définition des collèges, conditions d'éligibilité et d'électorat, modalités de vote, communication des résultats. Précisez également les compétences et attributions du CSE que vous rappelleriez aux élus lors de la réunion d'installation, ainsi que les modalités de suivi des heures de délégation.",
+      "min_mots": 280,
       "mots_cles": [
         "CSE",
-        "protocole pré-électoral",
+        "élections professionnelles",
+        "protocole préélectoral",
         "collèges électoraux",
-        "heures de délégation",
         "éligibilité",
-        "vote électronique",
+        "heures de délégation",
         "obligations légales",
-        "sanctions",
-        "BDES",
-        "mandats"
+        "résultats",
+        "installation",
+        "dialogue social"
       ],
-      "conseil": "Insistez sur le risque juridique lié au retard (délit d'entrave potentiel, mise en demeure de l'inspection du travail) pour montrer l'urgence de la situation. Un rétroplanning sous forme de tableau sera particulièrement apprécié du jury."
+      "conseil": "Respectez impérativement l'ordre chronologique des étapes légales (les délais sont sanctionnés par la jurisprudence). Mentionnez la possibilité du vote électronique. N'oubliez pas de préciser la distinction entre titulaires et suppléants, et d'aborder la question de la représentativité syndicale si des OS sont présentes."
     },
     {
       "code": "2.8",
       "label": "Planifier l'agenda social",
       "rncp": "Planifier l'agenda social avec la direction et les instances représentatives du personnel, en respectant la réglementation en vigueur et en accompagnant les membres élus et les délégués syndicaux désignés, pour préparer les négociations collectives",
-      "placeholder": "Une fois le CSE constitué, Théo Marczak vous demande de construire l'agenda social pour le second semestre 2025. Proposez un agenda social complet distinguant : réunions ordinaires et extraordinaires du CSE, consultations obligatoires (orientations stratégiques, situation économique et financière, politique sociale), thèmes de négociation obligatoire (NAO, égalité professionnelle, QVCT). Rédigez un exemple d'ordre du jour et de convocation pour la première réunion ordinaire du CSE, ainsi qu'une note argumentée présentant les enjeux à la direction. Expliquez comment vous accompagnez les élus nouvellement désignés dans leur prise de fonction.",
-      "min_mots": 300,
+      "placeholder": "Construisez l'agenda social de Lumio Health pour les six prochains mois, en intégrant les réunions obligatoires du CSE, les consultations liées à la fusion avec Northgate, et les négociations annuelles obligatoires (NAO). Distinguez clairement les réunions d'information des réunions de consultation. Rédigez un exemple de convocation et un exemple d'ordre du jour pour la prochaine réunion CSE extraordinaire relative au projet de fusion. Précisez comment vous accompagneriez les élus dans leur prise de poste.",
+      "min_mots": 280,
       "mots_cles": [
         "agenda social",
+        "CSE",
+        "consultation",
+        "information",
         "NAO",
-        "consultation obligatoire",
-        "ordre du jour",
-        "convocation",
-        "procès-verbal",
-        "délégué syndical",
         "négociation collective",
-        "accompagnement élus"
+        "convocation",
+        "ordre du jour",
+        "procès-verbal",
+        "délégués syndicaux"
       ],
-      "conseil": "Distinguez bien consultation (avis attendu du CSE) et information (simple présentation) pour montrer votre maîtrise technique. La qualité rédactionnelle des documents types (convocation, ordre du jour) sera évaluée par le jury."
+      "conseil": "La distinction information/consultation est un point clé du jury : une consultation implique un avis rendu dans un délai légal, avec mise à disposition des documents en amont. L'agenda doit être réaliste et tenir compte du calendrier de la fusion. La convocation fictive doit contenir tous les éléments légaux obligatoires."
     },
     {
       "code": "2.9",
       "label": "Participer aux négociations avec les partenaires sociaux",
       "rncp": "Participer aux négociations avec les partenaires sociaux, en identifiant les thèmes des négociations obligatoires (organisation du travail, diversité et égalité, handicap, GEPP, etc.), en préparant des éléments de réponses aux questions du CSE et en assurant le suivi des réunions afin de contribuer à l'animation d'un dialogue social constructif",
-      "placeholder": "Lors de la première réunion de consultation du CSE sur la politique sociale de Lumio Health, les représentants élus soulèvent trois points de blocage : (1) l'absence de politique de télétravail formalisée malgré des pratiques disparates, (2) l'inégalité perçue des augmentations entre équipes Marketing et B2B, (3) le manque de visibilité sur les plans de formation. Pour chaque point de blocage, préparez les arguments que vous soumettrez à la direction, les éléments de réponse que vous apporterez aux élus, et décrivez la posture professionnelle que vous adopterez en séance. Proposez également un suivi post-réunion (procès-verbal, actions, délais).",
-      "min_mots": 280,
+      "placeholder": "Lors de la réunion CSE extraordinaire sur la fusion Lumio/Northgate, les élus soulèvent trois points de blocage majeurs : absence de consultation préalable, craintes sur les suppressions de postes, et demande d'accès à la BDESE complète. Préparez les éléments de réponse argumentés que vous porteriez au nom de la direction pour chacun de ces points, en restant dans une posture constructive. Précisez aussi les thèmes de négociation obligatoire que cette transformation implique (GEPP, organisation du travail, égalité). À l'oral, vous serez évalué(e) sur votre posture professionnelle.",
+      "min_mots": 260,
       "mots_cles": [
         "négociation collective",
+        "partenaires sociaux",
+        "CSE",
         "points de blocage",
-        "posture professionnelle",
-        "dialogue social",
-        "télétravail",
-        "égalité professionnelle",
         "GEPP",
-        "procès-verbal",
-        "suivi de réunion"
+        "organisation du travail",
+        "dialogue social",
+        "BDESE",
+        "posture professionnelle",
+        "négociations obligatoires"
       ],
-      "conseil": "Cette compétence est évaluée à l'oral en mise en situation professionnelle : entraînez-vous à formuler vos réponses de façon calme, factuelle et constructive. Montrez que vous savez gérer la tension sans vous laisser déstabiliser ni adopter une posture défensive."
+      "conseil": "Pour l'oral, préparez une prise de parole structurée (situation — problème — solution — bénéfice). Les arguments doivent être juridiquement fondés ET humainement recevables : montrez que vous comprenez les craintes des élus sans pour autant céder sur les prérogatives de la direction. Évitez le jargon RH opaque en situation de tension."
     }
   ],
   "livrable": {
-    "format": "Dossier écrit structuré en deux parties : Partie A — Étude de cas QVCT et environnement professionnel (compétences 2.1 à 2.5, réponses organisées par compétence avec titres apparents) ; Partie B — Préparation à la mise en situation professionnelle : animation du dialogue social (compétences 2.6 à 2.9, incluant documents types rédigés : note de synthèse, rétroplanning élections CSE, agenda social, ordre du jour, éléments de réponse aux élus). Chaque partie doit comporter une introduction contextualisant Lumio Health et une conclusion opérationnelle.",
+    "format": "Dossier écrit structuré par compétence (une partie par compétence, titrée et numérotée), complété à l'oral par une mise en situation professionnelle pour les compétences 2.6 à 2.9",
     "total_mots_min": 520,
     "note_reflexive_min": 100
   },
   "jury_criteres_eliminatoires": [
-    "Aucune référence au cadre réglementaire SST (Code du travail, DUERP obligatoire) : la compétence 2.1 ne peut être validée sans ancrage légal explicite.",
-    "Absence de distinction claire des rôles et responsabilités des parties prenantes (direction, RH, managers, élus CSE, médecin du travail, SPST) dans le plan QVCT et le plan RPS : les critères d'évaluation exigent explicitement l'identification de l'ensemble des acteurs.",
-    "Aucun indicateur de suivi ou de performance (KPI) proposé pour le plan QVCT ou le plan RPS : les critères d'évaluation de 2.4 et 2.2 font de ce point une condition sine qua non de validation.",
-    "Méconnaissance avérée du processus légal d'organisation des élections CSE (étapes, délais, collèges, conditions d'éligibilité) rendant la réponse à 2.7 non conforme aux obligations légales.",
-    "Absence totale de structuration de la note de synthèse (2.6) ou sources inexistantes/non fiables : une note sans plan apparent et sans références datées est éliminatoire.",
-    "Posture professionnelle inadaptée lors de la mise en situation orale (2.9) : ton agressif, déstabilisation face aux objections des élus, ou incapacité à reformuler les points de blocage constituent un critère d'échec à l'épreuve orale.",
-    "Plan d'action QVCT (2.4) sans aucun calendrier ni échéance : un plan non temporalisé et non priorisé ne répond pas aux critères de réalisabilité exigés par le référentiel."
+    "Aucune cartographie formalisée des risques (absence de structure type DUER ou équivalent) : la compétence 2.1 est considérée non démontrée",
+    "Les rôles et responsabilités des parties prenantes (direction, managers, CSE, RRH, référent RPS) ne sont pas explicitement répartis dans au moins deux livrables distincts",
+    "Aucun indicateur d'impact mesurable (qualitatif ou quantitatif) n'est proposé pour évaluer l'efficacité des actions QVCT ou du plan RPS",
+    "La distinction entre réunion d'information et réunion de consultation du CSE n'est pas maîtrisée ou absente du dossier",
+    "Les étapes légales des élections du CSE sont incomplètes, non chronologiques ou comportent une erreur majeure de droit (délais, collèges, éligibilité)",
+    "La note de synthèse de veille juridique ne cite aucune source identifiable et ne fait pas apparaître de données BDESE corrélées aux thématiques traitées",
+    "Le plan d'action QVCT ne comporte aucune action argumentée en lien direct avec les problématiques identifiées dans le cas Lumio Health"
   ],
   "documents_fictifs": [
     {
       "id": "DOC-01",
       "type": "email",
       "expediteur": "Théo Marczak (CEO)",
-      "objet": "URGENT — Feuille de route RH avant le 30 juin : engagement Northgate",
-      "role_narratif": "Déclencheur principal de la mission. Théo expose la pression de Jakob Rein, le retard sur le CSE et demande à la RRH un dossier complet QVCT + conformité sociale en 11 semaines. Ton directif, légère panique dissimulée.",
-      "acte": 1
+      "objet": "URGENT — Prise en charge dossier social Lumio x Northgate",
+      "role_narratif": "Déclencheur narratif : Théo mandate officiellement le/la RRH, révèle l'étendue de la crise (absentéisme, démissions, pétition, CSE non consulté) et fixe les priorités et le calendrier contraint.",
+      "acte": 1,
+      "generated": {
+        "subject": "URGENT — Prise en charge dossier social Lumio x Northgate",
+        "body": "Objet : URGENT — Prise en charge dossier social Lumio x Northgate\n\nBonjour,\n\nJe te confie formellement, à compter d'aujourd'hui 14 mars, la gestion complète du dossier social lié à la fusion avec Northgate Medtech. Je ne vais pas te mâcher les mots : la situation est mauvaise et elle se dégrade vite.\n\nVoilà ce que j'ai sur le bureau ce matin : absentéisme en hausse de 22% sur deux mois, trois démissions dans l'équipe Content dont on ne comprend toujours pas vraiment les raisons, et une pétition qui circule chez les commerciaux B2B suite aux changements d'objectifs décidés par Sonia en janvier — je n'avais pas anticipé que ça passerait aussi mal. Par ailleurs, le CSE n'a pas été consulté sur le projet de fusion. Son mandat expire dans six semaines. Je réalise que c'est un vrai problème légal, pas seulement un problème de forme.\n\nPriorités immédiates : régulariser la situation vis-à-vis du CSE avant toute chose, puis dresser un état des lieux social honnête — je veux des chiffres, pas des impressions. Ensuite, construire un plan d'action QVCT crédible, notamment pour les équipes Content et Commerce. Je veux un premier point de situation vendredi 21 mars, et un plan structuré pour le 4 avril au plus tard, avant la prochaine réunion avec Jakob.\n\nJe suis disponible pour un échange cette semaine, mais je te laisse prendre les rênes. C'est ton dossier.\n\nThéo\nThéo Marczak — CEO, Lumio Health\nm. +33 6 12 34 56 78",
+        "preview": "Théo mandate officiellement le/la RRH sur la crise sociale Lumio x Northgate : absentéisme, démissions, CSE non consulté — action immédiate requise."
+      }
     },
     {
       "id": "DOC-02",
-      "type": "tableau_excel_anonymise",
-      "expediteur": "Service paie / RH interne",
-      "objet": "Données sociales T1 2025 — Lumio Health (export SIRH)",
-      "role_narratif": "Fournit les données chiffrées clés : taux d'absentéisme 9,4 %, 2 démissions Content, 3 arrêts maladie longue durée Marketing, turn-over 18 % sur 12 mois, 6 heures sup non récupérées en moyenne par semaine. Sert de base factuelle pour 2.1, 2.2, 2.3 et 2.4.",
-      "acte": 1
+      "type": "tableau de bord RH",
+      "expediteur": "Service RH Lumio Health",
+      "objet": "Indicateurs sociaux T4 2024 — T1 2025 (confidentiel)",
+      "role_narratif": "Fournit les données chiffrées nécessaires à la cartographie des risques et à l'évaluation du clima social : taux d'absentéisme (+22%), démissions par département, résultats du dernier baromètre interne, heures supplémentaires non récupérées, indicateurs d'accidents/incidents.",
+      "acte": 1,
+      "generated": {
+        "title": "Tableau de bord RH — Indicateurs sociaux T4 2024 / T1 2025",
+        "pages": [
+          {
+            "kicker": "CONFIDENTIEL — USAGE INTERNE RESTREINT",
+            "title": "Tableau de bord RH · Indicateurs sociaux T4 2024 — T1 2025",
+            "byline": "Service RH Lumio Health · 14 mars 2025",
+            "blocks": [
+              {
+                "type": "p",
+                "text": "Ce tableau de bord compile les principaux indicateurs sociaux de Lumio Health sur la période octobre 2024 – mars 2025. Il est établi à la demande de Théo Marczak, CEO, dans le cadre de l'Opération Fréquence Silencieuse. Les données sont issues du SIRH interne, des relevés de paie, du baromètre social de janvier 2025 et des remontées managériales. Document à diffusion restreinte : Direction générale, RRH, membres du CSE sortant."
+              },
+              {
+                "type": "h2",
+                "text": "1. Absentéisme"
+              },
+              {
+                "type": "p",
+                "text": "Le taux d'absentéisme global s'établit à 8,4 % en février 2025, contre 6,9 % en décembre 2024, soit une hausse de 22 % en deux mois. L'écart est particulièrement marqué dans l'équipe Content & Digital (12,1 %) et chez les commerciaux B2B (9,7 %). Les arrêts de courte durée (1 à 3 jours) représentent 61 % des occurrences, signe classique d'un désengagement latent plutôt que de pathologies lourdes. Aucun accident du travail déclaré sur la période, mais deux incidents de tension relationnelle signalés en janvier 2025 (équipe Content, sans arrêt associé)."
+              },
+              {
+                "type": "callout",
+                "text": "⚠ Taux d'absentéisme : +22 % en 8 semaines. Seuil d'alerte interne fixé à +15 % dépassé depuis le 17 février 2025."
+              },
+              {
+                "type": "h2",
+                "text": "2. Turnover et démissions"
+              },
+              {
+                "type": "p",
+                "text": "Trois démissions ont été enregistrées entre le 20 janvier et le 10 mars 2025, toutes dans l'équipe Content : Lucas Ferrand (Content Strategist, 3 ans d'ancienneté, départ le 31 janvier), Inès Chakroun (Rédactrice SEO, 18 mois, départ le 14 février), et un troisième profil dont le prénom est anonymisé à sa demande (Chargé de production vidéo, départ le 7 mars). Aucun entretien de départ formalisé n'a pu être conduit pour les deux premiers faute de protocole en place. Le taux de turnover annualisé atteint 14,2 % sur l'ensemble de la structure (référence secteur medtech : 9,8 %, source Syntec Numérique 2024)."
+              },
+              {
+                "type": "callout",
+                "text": "📌 3 démissions en 7 semaines dans une équipe de 9 personnes = taux de sortie localisé de 33 %. Yassine Morel (RQTH, Content Manager) identifié en situation de surcharge critique — suivi prioritaire requis."
+              },
+              {
+                "type": "h2",
+                "text": "3. Baromètre social — Janvier 2025"
+              },
+              {
+                "type": "p",
+                "text": "Le baromètre interne, déployé du 13 au 17 janvier 2025 (taux de réponse : 67 %, soit 54 répondants sur 81 salariés), révèle une dégradation nette du climat perçu. L'indice de confiance envers la direction chute à 5,8/10 (vs 7,4/10 en juillet 2024). La lisibilité de la stratégie est notée 4,2/10. La satisfaction globale au travail s'établit à 5,9/10. Point positif : la cohésion d'équipe reste bien évaluée (7,1/10), ce qui indique que la défiance est verticale (direction / management intermédiaire) et non horizontale. 38 % des répondants déclarent avoir entendu parler du projet de fusion via des canaux informels avant toute communication officielle."
+              },
+              {
+                "type": "h2",
+                "text": "4. Heures supplémentaires et charge de travail"
+              },
+              {
+                "type": "p",
+                "text": "Sur le T4 2024, 312 heures supplémentaires ont été générées sur l'ensemble de l'effectif, dont 187 heures non récupérées au 1er mars 2025 (60 %). L'équipe Content concentre 41 % de ce volume non récupéré (77 heures). Les équipes commerciales B2B signalent une augmentation non formalisée de la charge depuis la révision unilatérale des objectifs par Sonia Ferracci en février 2025, sans traduction dans les contrats de travail ni accord collectif. Ce point constitue un risque juridique et social immédiat."
+              },
+              {
+                "type": "callout",
+                "text": "🔴 187 heures supplémentaires non récupérées au 1er mars 2025. Révision des objectifs commerciaux sans concertation : exposition à un risque de contentieux prud'homal et de qualification en modification unilatérale du contrat de travail (art. L.1222-6 C. trav.)."
+              }
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "DOC-03",
-      "type": "message_slack",
-      "expediteur": "Yassine Morel (Content) → channel #general",
-      "objet": "Résultats de mon petit sondage 😬 — à discuter en réunion ?",
-      "role_narratif": "Yassine a diffusé un questionnaire maison sur le bien-être au travail sans validation RH. 61 % des répondants déclarent se sentir 'souvent stressés', 44 % jugent la charge de travail 'excessive'. Le post a généré 23 réactions emoji dont plusieurs 🔥 et 😬. Crée une tension sur la légitimité et la méthodologie de l'évaluation du climat social (2.3).",
-      "acte": 2
+      "type": "note interne",
+      "expediteur": "Sonia Ferracci (DirMkt)",
+      "objet": "Révision des objectifs commerciaux B2B — mise en application immédiate",
+      "role_narratif": "Document déclencheur du conflit social dans l'équipe B2B de Camille Ott : objectifs revus à la hausse sans concertation ni information du CSE, illustrant une pratique managériale unilatérale et une source de RPS identifiable.",
+      "acte": 2,
+      "generated": {
+        "title": "Révision des objectifs commerciaux B2B — mise en application immédiate",
+        "kicker": "NOTE INTERNE — CONFIDENTIEL",
+        "body": "À compter du 17 mars 2025, les objectifs de prospection B2B sont révisés comme suit : le quota mensuel de nouveaux contrats signés passe de 8 à 14 par commercial, et le taux de renouvellement cible est relevé de 78 % à 90 %. Ces ajustements s'appliquent à l'ensemble de l'équipe partenariats dès la semaine prochaine, sans période de transition. Les tableaux de bord Salesforce seront mis à jour avant le 18 mars. Les managers sont priés de relayer ces nouvelles cibles lors de leur briefing d'équipe du lundi. Aucune révision des ressources allouées ni des outils n'est prévue à ce stade. Pour toute question opérationnelle, contacter directement la direction marketing.",
+        "preview": "Les quotas B2B sont relevés de 75 % sans concertation ni délai — application dès le 17 mars."
+      }
     },
     {
       "id": "DOC-04",
-      "type": "courrier_recommande",
-      "expediteur": "Collectif de 11 salariés cadres — Lumio Health",
-      "objet": "Mise en demeure informelle — Obligation de mise en place du CSE",
-      "role_narratif": "Les cadres formalisent par écrit leur demande de mise en place immédiate du CSE, rappelant que le seuil de 50 salariés a été franchi en août 2024 et que l'entreprise est en infraction depuis 8 mois. Ils mentionnent avoir contacté l'inspection du travail à titre informatif. Déclenche l'urgence juridique pour 2.7 et 2.8.",
-      "acte": 2
+      "type": "pétition informelle",
+      "expediteur": "Collectif collaborateurs B2B (anonymisé)",
+      "objet": "Courrier collectif adressé à la direction — Conditions de travail et transparence",
+      "role_narratif": "Signal d'alerte sociale fort : sept collaborateurs B2B signalent une dégradation des conditions de travail, un manque de transparence sur la fusion, et demandent formellement une réunion CSE extraordinaire. Matériau clé pour la compétence 2.3 et 2.9.",
+      "acte": 2,
+      "generated": {
+        "title": "Courrier collectif — Conditions de travail et transparence",
+        "pages": [
+          {
+            "kicker": "PÉTITION INFORMELLE — CONFIDENTIEL",
+            "title": "À l'attention de la Direction de Lumio Health — Demande de réunion CSE extraordinaire",
+            "byline": "Collectif de collaborateurs B2B (7 signataires anonymisés) · 14 mars 2025",
+            "blocks": [
+              {
+                "type": "p",
+                "text": "Nous, collaborateurs de l'équipe commerciale B2B de Lumio Health, prenons collectivement la parole pour signaler une dégradation significative de nos conditions de travail et exprimer une inquiétude profonde quant au manque de transparence entourant le projet de fusion partielle avec Northgate Medtech. Ce courrier ne reflète pas une démarche hostile envers l'entreprise : nous croyons en son projet et en ses clients. Il traduit une situation que nous ne pouvons plus ignorer."
+              },
+              {
+                "type": "h2",
+                "text": "1. Des objectifs modifiés sans concertation"
+              },
+              {
+                "type": "p",
+                "text": "Depuis début février 2025, nos objectifs commerciaux individuels ont été révisés à la hausse de manière unilatérale, sans information préalable, sans réunion d'équipe, et sans aucun échange avec notre responsable de proximité Camille Ott — qui, à notre connaissance, n'a pas elle-même été associée à cette décision. Ces nouveaux objectifs ont été communiqués par email le 6 février par la Direction Marketing, sans explication sur les critères retenus ni sur les conséquences en cas de non-atteinte. Cette méthode génère un sentiment d'arbitraire et fragilise notre relation de confiance avec la direction."
+              },
+              {
+                "type": "h2",
+                "text": "2. Une fusion annoncée, mais non expliquée"
+              },
+              {
+                "type": "p",
+                "text": "L'annonce de la fusion partielle avec Northgate Medtech a circulé de manière informelle avant toute communication officielle. À ce jour, nous n'avons reçu aucun document, aucune note d'information, aucune réunion de présentation sur les conséquences concrètes de cette opération pour nos postes, nos périmètres clients, nos conditions contractuelles. L'incertitude ainsi créée alimente des rumeurs et affecte directement notre capacité à travailler sereinement et à défendre la marque Lumio auprès de nos 180 comptes actifs."
+              },
+              {
+                "type": "callout",
+                "text": "Fait signalé : trois collègues de l'équipe Content ont démissionné en l'espace de six semaines. Aucune explication collective ne nous a été donnée. Ce silence aggrave l'inquiétude générale et laisse penser que des informations nous sont délibérément retenues."
+              },
+              {
+                "type": "h2",
+                "text": "3. Notre demande formelle"
+              },
+              {
+                "type": "p",
+                "text": "Nous demandons à la direction de convoquer une réunion extraordinaire du CSE dans les meilleurs délais, et au plus tard avant l'expiration de son mandat prévue dans six semaines. Cette réunion devra porter a minima sur les points suivants : (1) présentation officielle du projet de fusion et de ses implications RH, (2) consultation du CSE sur les changements d'organisation et d'objectifs intervenus depuis janvier 2025, (3) mise en place d'un espace d'expression sécurisé pour les équipes. Nous rappelons que la consultation du CSE sur les projets importants modifiant les conditions de travail est une obligation légale au titre des articles L.2312-8 et suivants du Code du travail."
+              },
+              {
+                "type": "callout",
+                "text": "Signataires : 7 collaborateurs B2B — identités transmises sous pli séparé à Camille Ott, garante de la confidentialité de la démarche. Ce courrier sera porté à la connaissance des représentants du CSE si aucune réponse n'est apportée sous 10 jours ouvrés."
+              }
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "DOC-05",
-      "type": "compte_rendu_comite_direction",
-      "expediteur": "Théo Marczak — CoDir du 7 avril 2025",
-      "objet": "Point stratégique : tension Marketing / B2B et politique de rémunération",
-      "role_narratif": "Sonia Ferracci (DirMkt) et Camille Ott (B2B) s'opposent ouvertement sur la répartition des primes liées au partenariat Northgate. Théo tente de modérer sans trancher. Le compte-rendu montre des zones grises sur les critères d'attribution des augmentations — matière directe pour 2.2 (RPS conflits interpersonnels), 2.3 (sources d'insatisfaction) et 2.9 (point de blocage en négociation).",
-      "acte": 3
+      "type": "extrait BDESE",
+      "expediteur": "Direction Lumio Health",
+      "objet": "BDESE — Extraits thématiques : emploi, égalité, conditions de travail, rémunérations (2023-2024)",
+      "role_narratif": "Base de données économiques et sociales à corréler dans la note de synthèse de veille (compétence 2.6) et à mobiliser lors des négociations CSE (compétence 2.9). Contient des données sur la structure des effectifs, les écarts de rémunération F/H, le taux de recours au télétravail et les indicateurs QVCT.",
+      "acte": 3,
+      "generated": {
+        "title": "BDESE Lumio Health — Extraits thématiques 2023-2024",
+        "pages": [
+          {
+            "kicker": "BASE DE DONNÉES ÉCONOMIQUES, SOCIALES ET ENVIRONNEMENTALES",
+            "title": "Extraits thématiques : emploi, égalité, conditions de travail, rémunérations",
+            "byline": "Direction Lumio Health · 14 mars 2025",
+            "blocks": [
+              {
+                "type": "p",
+                "text": "Le présent extrait est établi conformément aux articles L. 2312-18 et suivants du Code du travail. Il porte sur les exercices 2023 et 2024 et a vocation à alimenter les travaux du CSE ainsi que les négociations obligatoires en cours. Les données ci-dessous sont issues du SIRH Lumio Health (Lucca), des déclarations sociales nominatives (DSN) et des bilans sociaux transmis à l'URSSAF."
+              },
+              {
+                "type": "h2",
+                "text": "1. Structure des effectifs"
+              },
+              {
+                "type": "p",
+                "text": "Au 31 décembre 2024, Lumio Health comptait 47 salariés en CDI (contre 41 fin 2023, soit +14,6 %), auxquels s'ajoutent 4 CDD et 2 alternants. La répartition par genre s'établit à 55 % de femmes et 45 % d'hommes. L'équipe Content & Marketing représente 9 personnes, dont 3 départs enregistrés entre janvier et février 2025 (démissions). Le taux de turnover global sur 2024 atteint 12,3 %, contre 6,8 % en 2023, soit un quasi-doublement en un exercice. L'absentéisme toutes causes confondues s'établit à 5,2 % sur le T1 2025 (janvier-février), contre 4,3 % sur l'ensemble de 2024 — hausse de 22 % corroborée par les données de paie."
+              },
+              {
+                "type": "h2",
+                "text": "2. Rémunérations et écarts F/H"
+              },
+              {
+                "type": "p",
+                "text": "Le salaire mensuel brut médian s'élève à 3 840 € en 2024 (3 620 € en 2023). L'index égalité professionnelle Femmes/Hommes publié au 1er mars 2025 est de 74/100, en baisse de 4 points par rapport à 2024 (78/100). L'écart de rémunération moyen pondéré entre femmes et hommes à poste comparable est de 7,2 % en défaveur des femmes (6,1 % en 2023). Les catégories les plus exposées : managers intermédiaires (écart de 9,4 %) et profils commerciaux B2B (écart de 8,1 %). Aucune mesure de rattrapage salarial n'a été formalisée à ce jour dans le cadre de la NAO 2024, dont le procès-verbal de désaccord a été signé le 18 novembre 2024."
+              },
+              {
+                "type": "callout",
+                "text": "⚠ Index égalité F/H : 74/100 (seuil légal de publication : 75). Lumio Health est en dessous du seuil réglementaire et s'expose à une obligation de publication de mesures correctives avant le 1er septembre 2025 (art. L. 1142-9 du Code du travail). À inscrire en priorité à l'agenda des négociations CSE."
+              },
+              {
+                "type": "h2",
+                "text": "3. Conditions de travail et télétravail"
+              },
+              {
+                "type": "p",
+                "text": "L'accord de télétravail signé en juin 2022 autorise deux jours par semaine pour les postes éligibles. En 2024, le taux de recours effectif au télétravail s'établit à 68 % des salariés éligibles (contre 71 % en 2023). Trois équipes présentent un recours nettement inférieur à la moyenne : les commerciaux B2B terrain (31 %), l'équipe Partenariats (44 %) et l'équipe Content (58 %). Par ailleurs, 14 salariés ont déclaré travailler régulièrement au-delà de 10 heures par jour via le module de badgeage Lucca, dont 6 dans l'équipe Content & Marketing — donnée à corréler avec les signaux de surmenage identifiés en février 2025."
+              },
+              {
+                "type": "h2",
+                "text": "4. Indicateurs QVCT et santé au travail"
+              },
+              {
+                "type": "p",
+                "text": "Aucune enquête de climat social formalisée n'a été conduite en 2024. Le dernier baromètre interne remonte à octobre 2023 (score eNPS : +12). Trois signalements de situations de mal-être ont été transmis au médecin du travail entre octobre 2024 et février 2025, dont un relatif à un salarié en situation de RQTH (équipe Content). Le Document Unique d'Évaluation des Risques Professionnels (DUERP) a été mis à jour en janvier 2024 mais ne reflète pas les risques psychosociaux liés à la transformation organisationnelle en cours. Aucun plan de prévention des RPS formalisé n'est actuellement en vigueur. Le taux de fréquence des accidents du travail est nul sur 2023-2024."
+              },
+              {
+                "type": "callout",
+                "text": "📌 Points de vigilance prioritaires pour les négociations CSE : (1) Index F/H sous le seuil légal — mesures correctives obligatoires ; (2) DUERP à actualiser impérativement avant la prochaine réunion CSE (échéance mandat : fin avril 2025) ; (3) Absence de plan RPS formalisé dans un contexte de fusion annoncée ; (4) Concentration des signaux de surmenage dans l'équipe Content (3 démissions + 1 RQTH + dépassements horaires récurrents)."
+              }
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "DOC-06",
-      "type": "email",
-      "expediteur": "Jakob Rein (Northgate Capital) → Théo Marczak",
-      "objet": "Due diligence sociale — checklist pré-déblocage tranche B",
-      "role_narratif": "Jakob liste les 8 points que Northgate vérifiera avant de débloquer les 6 M€ : CSE constitué, DUERP à jour, politique QVCT formalisée, indicateurs RSE publiés, index égalité H/F calculé, accord télétravail, plan de formation 2025 validé, note de synthèse droit social. Document de référence pour l'ensemble du dossier, crée l'enjeu de performance pour 2.5 et 2.6.",
-      "acte": 3
+      "type": "compte-rendu de réunion",
+      "expediteur": "Jakob Rein (Northgate Medtech)",
+      "objet": "Point d'avancement — intégration opérationnelle Lumio x Northgate (réunion du 28 février 2025)",
+      "role_narratif": "Révèle les contours du projet de fusion (périmètre RH, calendrier prévisionnel, postes potentiellement impactés) sans qu'aucune consultation sociale n'ait été formellement engagée. Alimente les compétences 2.7, 2.8, 2.9 et la politique RSE.",
+      "acte": 3,
+      "generated": {
+        "title": "CR — Intégration opérationnelle Lumio x Northgate · 28 février 2025",
+        "pages": [
+          {
+            "kicker": "CONFIDENTIEL — DIFFUSION RESTREINTE",
+            "title": "Point d'avancement : intégration opérationnelle Lumio × Northgate Medtech",
+            "byline": "Jakob Rein, Partner Northgate Capital · 28 février 2025",
+            "blocks": [
+              {
+                "type": "p",
+                "text": "Réunion tenue le vendredi 28 février 2025, de 14h00 à 16h30, dans les locaux de Northgate Capital (75008 Paris). Présents : Jakob Rein (Northgate), Théo Marczak (Lumio Health, CEO), Martin Dubé (Northgate, directeur juridique), Camille Ott (Lumio, partenariats B2B — arrivée en cours de séance à 15h15). Absente excusée : Sonia Ferracci (Lumio, directrice marketing)."
+              },
+              {
+                "type": "h2",
+                "text": "1. Périmètre RH de l'opération"
+              },
+              {
+                "type": "p",
+                "text": "L'intégration prévue couvre trois fonctions clés de Lumio Health : (a) le pôle Content & Communication (5 ETP actuels), dont les missions seront partiellement absorbées par l'équipe brand de Northgate Medtech d'ici le T3 2025 ; (b) la direction commerciale B2B, appelée à fusionner avec la force de vente Northgate sous un management unifié à compter du 1er juillet 2025 ; (c) la fonction support RH/Admin, dont le périmètre sera redéfini en fonction des synergies identifiées. Au total, entre 8 et 12 postes sont susceptibles d'être modifiés dans leur contenu ou leur rattachement hiérarchique. Aucun plan de suppression de postes n'est acté à ce stade, mais des mobilités internes et des reclassifications de fonctions sont anticipées."
+              },
+              {
+                "type": "callout",
+                "text": "⚠ Point d'attention juridique (soulevé par M. Dubé) : aucune information formelle n'a été transmise au CSE de Lumio Health à ce jour. Le mandat de l'instance expire dans six semaines (mi-avril 2025). Toute décision structurelle engagée avant consultation régulière expose Lumio à un risque de délit d'entrave."
+              },
+              {
+                "type": "h2",
+                "text": "2. Calendrier prévisionnel"
+              },
+              {
+                "type": "p",
+                "text": "Les jalons retenus lors de la réunion sont les suivants : 15 mars 2025 — transmission d'un mémorandum d'intention révisé par Northgate à Théo Marczak ; 31 mars 2025 — présentation du projet au CSE de Lumio (à organiser en urgence) ; 30 avril 2025 — finalisation des fiches de poste révisées pour les fonctions impactées ; 1er juillet 2025 — date cible d'entrée en vigueur de la nouvelle organisation. Jakob Rein a insisté sur le maintien de ce calendrier : « Chaque semaine de glissement nous coûte de la lisibilité vis-à-vis de nos LPs. Le T3 n'est pas négociable. »"
+              },
+              {
+                "type": "h2",
+                "text": "3. Points RSE et engagements de marque employeur"
+              },
+              {
+                "type": "p",
+                "text": "Northgate Medtech a indiqué vouloir intégrer Lumio Health dans son rapport RSE 2025 sous l'axe « santé au travail & innovation sociale », valorisant les wearables de mesure du stress comme actif différenciant. Théo Marczak a conditionné cet usage à la mise en place d'un plan QVCT crédible au sein de Lumio avant toute communication externe. Camille Ott a signalé, en séance, la dégradation perceptible du climat interne depuis janvier 2025 et déconseillé toute communication RSE externe avant stabilisation sociale."
+              },
+              {
+                "type": "callout",
+                "text": "ACTION PRIORITAIRE — RRH Lumio Health : organiser sans délai la consultation du CSE sur le projet de fusion (information-consultation obligatoire, articles L. 2312-8 et suivants du Code du travail), planifier le renouvellement de l'instance avant mi-avril 2025, et produire un agenda social formalisé pour le T2 2025 intégrant les négociations liées à la réorganisation."
+              }
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "DOC-07",
-      "type": "rapport_medecin_travail",
-      "expediteur": "Dr. Isabelle Fontaine — SPST Île-de-France",
-      "objet": "Bilan de la visite périodique de l'entreprise — Lumio Health — mars 2025",
-      "role_narratif": "Le médecin du travail signale : 4 signalements de syndrome d'épuisement professionnel sur 6 mois, absence de référent RPS identifié, postes de travail en open space non conformes aux normes acoustiques. Elle recommande formellement la mise à jour du DUERP et la désignation d'un référent RPS avant fin mai 2025. Document clé pour 2.1 et 2.2.",
-      "acte": 4
+      "type": "rapport d'enquête interne",
+      "expediteur": "Yassine Morel (Content) — transmis au RRH",
+      "objet": "Retours informels équipe Content — mal-être et désengagement post-annonce fusion",
+      "role_narratif": "Témoignages anonymisés collectés par Yassine Morel auprès de ses collègues Content : surcharge de travail, perte de sens, sentiment d'abandon managérial. Matériau pour les compétences 2.2 (RPS), 2.3 (clima social) et 2.4 (QVCT). Introduit aussi une tension entre Yassine et Sonia.",
+      "acte": 4,
+      "generated": {
+        "title": "Retours informels équipe Content — mal-être et désengagement post-annonce fusion",
+        "pages": [
+          {
+            "kicker": "RAPPORT INTERNE CONFIDENTIEL",
+            "title": "Retours informels équipe Content — mal-être et désengagement post-annonce fusion",
+            "byline": "Yassine Morel, Content Manager · 14 mars 2025",
+            "blocks": [
+              {
+                "type": "p",
+                "text": "À la demande du RRH et suite aux trois démissions intervenues en équipe Content entre janvier et mars 2025, j'ai recueilli entre le 10 et le 13 mars des retours informels auprès de cinq collègues (sur sept présents). Les échanges ont eu lieu en tête-à-tête, en dehors des heures de réunion. L'anonymat a été garanti. Ce document synthétise les verbatims et observations. Il ne constitue pas une enquête officielle mais un matériau de terrain destiné à éclairer le diagnostic social en cours."
+              },
+              {
+                "type": "h2",
+                "text": "1. Surcharge de travail et désorganisation depuis janvier 2026"
+              },
+              {
+                "type": "p",
+                "text": "Quatre collègues sur cinq signalent une augmentation sensible de leur charge depuis l'arrivée de Sonia Ferracci à la direction Marketing (janvier 2026) et, plus encore, depuis l'annonce de la fusion partielle avec Northgate Medtech (février 2025). Les briefs se multiplient sans ordre de priorité clair. Un collègue formule : « On reçoit trois demandes urgentes par jour, sans savoir laquelle compte vraiment. » Un autre évoque des semaines régulièrement au-dessus de 48 heures sans que cela soit ni reconnu ni compensé. La réorganisation des objectifs décidée unilatéralement par Sonia mi-février — sans réunion d'équipe préalable — est citée spontanément par trois personnes comme un point de rupture."
+              },
+              {
+                "type": "callout",
+                "text": "SIGNAL FORT — Trois collègues mentionnent explicitement avoir « pensé à partir » dans les deux dernières semaines. L'un d'eux a engagé des démarches externes."
+              },
+              {
+                "type": "h2",
+                "text": "2. Perte de sens et sentiment d'abandon managérial"
+              },
+              {
+                "type": "p",
+                "text": "Au-delà de la charge, c'est la question du sens qui revient le plus fréquemment. L'équipe Content a été construite sur un positionnement fort — produire du contenu de santé au travail rigoureux, en lien direct avec les clients B2B. Plusieurs collègues perçoivent le pivot B2C poussé par Northgate comme une menace sur leur identité professionnelle : « On ne sait plus pour qui on travaille, ni pourquoi. » Théo Marczak est décrit comme « absent » depuis les négociations avec Northgate, et aucune communication interne claire n'a été faite sur l'avenir de l'équipe dans le cadre de la fusion. Le sentiment dominant est celui d'un vide managérial comblé par des rumeurs."
+              },
+              {
+                "type": "h2",
+                "text": "3. Note personnelle de l'auteur"
+              },
+              {
+                "type": "p",
+                "text": "Je me permets d'ajouter, en toute transparence, que je partage une partie de ce vécu. Ma situation RQTH implique une vigilance particulière sur ma charge cognitive, et les dernières semaines ont été difficiles à ce titre. Je signale également que ma relation de travail avec Sonia Ferracci est tendue depuis la refonte des objectifs de février : je n'ai pas été consulté en amont, alors que mon rôle de Content Manager m'y aurait légitimement associé. Je laisse au RRH le soin d'apprécier si cela affecte l'objectivité de ce rapport — je crois que non, mais il était honnête de le mentionner."
+              },
+              {
+                "type": "callout",
+                "text": "RECOMMANDATION IMMÉDIATE — Déclencher un plan d'écoute formalisé (entretiens individuels RH), suspendre toute nouvelle réorganisation d'objectifs sans concertation, et rétablir une communication directe de la direction sur le périmètre de l'équipe Content post-fusion. Délai suggéré : avant fin mars 2025."
+              }
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "DOC-08",
-      "type": "note_interne",
-      "expediteur": "Sonia Ferracci (DirMkt) → RRH (confidentiel)",
-      "objet": "En off — ce que je n'ai pas dit en CoDir",
-      "role_narratif": "Sonia confie à la RRH que deux membres de son équipe lui ont dit chercher activement un autre poste, que la pression exercée par Théo depuis la levée de fonds a changé l'ambiance, et qu'elle-même ressent une 'fatigue managériale'. Elle demande si un accompagnement confidentiel est possible. Alimente 2.3 (évaluation climat social) et 2.4 (plan QVCT incluant soutien managérial).",
-      "acte": 5
+      "type": "draft de charte RSE",
+      "expediteur": "Théo Marczak (CEO) — version de travail",
+      "objet": "Projet de charte RSE Lumio Health 2025 — pour commentaires RRH",
+      "role_narratif": "Document de travail présentant les engagements RSE envisagés par Théo (éthique des données de santé, inclusion, empreinte carbone des wearables). Sert de base à la compétence 2.5 : le/la RRH doit l'analyser, identifier les manques, et proposer des actions de sensibilisation et de communication alignées.",
+      "acte": 5,
+      "generated": {
+        "title": "Projet de charte RSE Lumio Health 2025 — Version de travail pour commentaires RRH",
+        "pages": [
+          {
+            "kicker": "DOCUMENT INTERNE — CONFIDENTIEL",
+            "title": "Charte RSE Lumio Health 2025 : premiers engagements",
+            "byline": "Théo Marczak, CEO · 14 mars 2025",
+            "blocks": [
+              {
+                "type": "p",
+                "text": "Ce draft est une base de travail. Je l'ai rédigé vite, entre deux réunions Northgate. Il n'est pas parfait — c'est justement pour ça que je le passe à la RRH avant toute diffusion. L'idée : avoir quelque chose de crédible, pas un document cosmétique. On a trop vu de chartes RSE qui ne servent à rien. Lumio a des engagements réels à tenir, notamment sur les données de santé de nos utilisateurs et sur nos wearables. C'est là que notre légitimité se joue."
+              },
+              {
+                "type": "h2",
+                "text": "1. Éthique des données de santé"
+              },
+              {
+                "type": "p",
+                "text": "Lumio Health collecte des données physiologiques sensibles (fréquence cardiaque, variabilité, indicateurs de stress) pour le compte de 180 clients B2B. Nos engagements : (a) collecte strictement limitée à l'objectif contractuel, sans revente ni exploitation secondaire ; (b) anonymisation systématique avant toute analyse agrégée ; (c) droit à l'effacement effectif sous 72h sur demande du salarié porteur du wearable. Nous nous engageons à publier un rapport de transparence annuel sur les volumes et types de données traitées, à partir de l'exercice 2025. À noter : le pivot B2C envisagé par Northgate modifiera radicalement notre exposition — ce point devra être réexaminé si ce scénario se confirme."
+              },
+              {
+                "type": "h2",
+                "text": "2. Inclusion et conditions de travail"
+              },
+              {
+                "type": "p",
+                "text": "Lumio s'engage à maintenir un environnement de travail accessible et respectueux des situations individuelles. Cela inclut : le respect des aménagements liés aux RQTH (situation en cours dans l'équipe Content), une politique de télétravail flexible non conditionnée aux résultats commerciaux, et l'absence de toute discrimination dans les processus de mobilité interne post-fusion. Je veux qu'on soit concrets ici : pas de formule vague sur la 'diversité', mais des indicateurs mesurables — taux d'aménagements effectifs, délais de traitement des demandes, résultats de l'enquête climat annuelle."
+              },
+              {
+                "type": "h2",
+                "text": "3. Empreinte environnementale des wearables"
+              },
+              {
+                "type": "p",
+                "text": "Nos dispositifs physiques (capteurs, bracelets, bases de charge) représentent un flux matière non négligeable. Engagements envisagés : filière de collecte et reconditionnement des appareils en fin de contrat client, audit carbone des fournisseurs composants d'ici T3 2025, et suppression progressive des plastiques vierges dans l'emballage d'ici fin 2026. Ces engagements sont ambitieux — je sais qu'on n'a pas encore la structure pour tout tenir. C'est précisément pourquoi ce chantier doit être piloté, pas seulement déclaré."
+              },
+              {
+                "type": "callout",
+                "text": "POINTS EN SUSPENS — POUR ANALYSE RRH : (1) Aucune mention du dialogue social dans la charte — à corriger impérativement au regard de la situation CSE actuelle. (2) L'axe 'bien-être au travail' est absent alors que nos propres indicateurs internes (absentéisme +22 %, démissions Content) contredisent un discours RSE non étayé. (3) Le volet inclusion ne traite pas des obligations légales liées aux RQTH ni du rôle du référent handicap. (4) Aucune gouvernance RSE désignée : qui pilote, qui rend compte, à quelle fréquence ? Sans réponse à ces quatre points, ce document ne peut pas être diffusé."
+              }
+            ]
+          }
+        ]
+      }
     }
   ],
   "easter_egg": {
     "type": "whatsapp",
     "personnages": [
-      "Camille Ott",
+      "Sonia Ferracci",
       "Yassine Morel"
     ],
-    "tension_revelee": "Dans une conversation WhatsApp datée du 9 avril 2025 à 23h14, Camille écrit à Yassine : 'Ton sondage a tout fait péter… mais franchement t'as eu raison. Théo sait très bien ce qui se passe, il fait juste semblant de découvrir pour que ce soit la RH qui porte le bébé. La levée de fonds a tout écrasé, on est devenus des ressources comme les autres. 🙃' — Yassine répond : 'Je sais. Et Sonia m'a dit qu'elle cherche aussi. Garde ça pour toi.' Cette conversation révèle que la crise sociale est perçue en interne comme instrumentalisée par le CEO pour externaliser la responsabilité sur la RH, et que la DirMkt envisage elle-même de partir — information que la RRH devra intégrer discrètement dans son diagnostic sans en révéler la source."
+    "tension_revelee": "Dans une conversation WhatsApp retrouvée dans les pièces jointes du DOC-07 (transmis par erreur), Sonia écrit à Yassine : 'Je sais que tu as parlé à Théo sans passer par moi. Si tu penses que ça va rester sans conséquences sur ton poste dans la nouvelle org, tu te trompes.' Yassine répond : 'C'est exactement ce genre de message qui explique pourquoi trois personnes sont parties ce mois-ci.' Cette tension révèle une situation de management toxique potentiellement constitutive de RPS, et interroge directement sur la procédure d'alerte que le/la RRH doit mettre en place."
+  },
+  "_enriched": {
+    "pressArticle": {
+      "source": "Les Échos",
+      "host": "lesechos.fr",
+      "url": "lesechos.fr/industrie-services/medtech-sante/fusions-medtech-le-temps-social-oublie-des-directions-2143876",
+      "author": "Claire Vandermeersch",
+      "date": "14 mars 2025",
+      "headline": "Fusions dans la medtech : quand la vitesse des deals écrase le temps social",
+      "lede": "Dans un secteur en pleine consolidation, plusieurs start-ups françaises découvrent à leurs dépens que l'intégration capitalistique ne suffit pas. Le dialogue social, négligé dans l'urgence des transactions, devient le premier foyer d'incendie post-fusion.",
+      "body": "En 2024, le secteur medtech français a enregistré 47 opérations de fusion-acquisition, selon le baromètre EY Santé Numérique publié en janvier. Un record. Mais derrière les communiqués de presse triomphants, une réalité moins reluisante s'installe dans les open spaces : incertitude sur les périmètres de postes, objectifs révisés sans concertation, sentiment d'exclusion des équipes face à des décisions tombées d'en haut.\n\nPour Maïté Cordero, avocate en droit social au cabinet Hélix & Associés spécialisé dans les transformations d'entreprises technologiques, le schéma se répète avec une régularité préoccupante. « Les directions sont absorbées par la due diligence financière pendant des semaines. Le volet social est traité en dernière minute, parfois après l'annonce publique. C'est là que les problèmes commencent. »\n\nOr la loi est claire. Dès lors qu'une modification substantielle de l'organisation — restructuration, changement d'actionnariat significatif, modification des conditions de travail — est envisagée, le Comité Social et Économique doit être informé et consulté préalablement. L'article L.2312-8 du Code du travail ne laisse guère de marge d'interprétation. Pourtant, selon une étude de l'Observatoire du Dialogue Social publiée en février 2025, 38 % des PME de moins de 200 salariés ayant vécu une fusion entre 2022 et 2024 admettent n'avoir pas respecté ce calendrier obligatoire.\n\nLes conséquences humaines sont documentées. L'absentéisme progresse en moyenne de 18 à 25 % dans les six mois suivant une annonce de fusion mal gérée, selon les données de la mutuelle Malakoff Humanis. Les équipes les plus exposées sont celles dont le cœur de métier est directement menacé par les synergies annoncées — content, marketing, fonctions support. « Ce sont souvent des profils très engagés, qui ont construit leur identité professionnelle autour du projet de l'entreprise. Quand ce projet change sans eux, la désillusion est brutale », analyse Cordero.\n\nLa question des instances représentatives du personnel revêt une acuité particulière lorsque les mandats des élus arrivent à échéance en période de turbulence. Organiser des élections CSE dans un climat social dégradé n'est pas seulement une obligation légale — c'est aussi un signal envoyé aux équipes sur la volonté réelle de l'entreprise de maintenir un espace de dialogue. Plusieurs DRH contactés par Les Échos témoignent de la tentation inverse : laisser le mandat expirer discrètement, histoire de « ne pas rajouter de bruit » pendant la transition.\n\n« C'est une erreur stratégique autant que juridique », tranche Antoine Blum, consultant en relations sociales chez Syndex. « En l'absence de CSE constitué, l'entreprise perd son interlocuteur naturel pour négocier. Et les salariés, eux, trouvent d'autres canaux — pétitions, réseaux sociaux internes, démissions groupées. Le vide institutionnel ne reste jamais vide longtemps. »\n\nLe sujet dépasse la seule conformité. Avec l'essor des obligations RSE et la montée en puissance des critères sociaux dans les évaluations extra-financières, les investisseurs eux-mêmes — y compris les fonds de capital-risque — intègrent désormais la qualité du dialogue social à leur analyse de risque. Un retournement de tendance notable, même si certains observateurs jugent la conversion encore superficielle. « Beaucoup de fonds parlent de gouvernance sociale dans leurs term sheets et l'oublient dès que le closing approche », note Blum.\n\nDans ce contexte, plusieurs voix plaident pour la généralisation d'un « audit social préventif » systématique en amont de toute opération de fusion, à l'image de ce qui se pratique déjà pour les risques environnementaux. Une proposition qui fait son chemin, mais qui se heurte encore à la même résistance : le temps. Et dans la medtech comme ailleurs, le temps, ça se monnaie."
+    },
+    "fausseUne": {
+      "source": "Les Échos",
+      "host": "lesechos.fr",
+      "rubrique": "Économie & Entreprises",
+      "kicker": "Medtech & Social",
+      "date": "14 mars 2025",
+      "headline": "Fusions dans la medtech : quand le silence des directions fait exploser les collectifs de travail",
+      "chapeau": "Une vague de tensions sociales secoue plusieurs jeunes pousses françaises engagées dans des rapprochements capitalistiques avec des fonds anglo-saxons. Avocats spécialisés en droit social et inspecteurs du travail alertent sur une multiplication des situations à risque, où le CSE est délibérément tenu à l'écart des décisions stratégiques. En jeu : la responsabilité pénale des dirigeants et la crédibilité des engagements RSE affichés en vitrine.",
+      "body": "Selon une note confidentielle de la DGT datée du 28 février 2025, pas moins de dix-sept PME et ETI du secteur santé numérique feraient actuellement l'objet d'un suivi renforcé pour défaut de consultation des instances représentatives du personnel dans le cadre d'opérations de transformation organisationnelle. Le délit d'entrave, longtemps traité comme une formalité administrative, retrouve une vigueur judiciaire inédite : trois condamnations ont été prononcées depuis janvier, dont une assortie d'une astreinte de 4 000 euros par jour de retard. 'Les fonds d'investissement poussent à des timelines incompatibles avec le Code du travail, et les fondateurs signent sans mesurer l'exposition', résume Maître Claire Assouline, avocate en droit social au barreau de Paris. Au-delà du volet légal, c'est la dynamique humaine qui inquiète les observateurs : absentéisme, démissions en cascade dans les équipes exposées, pétitions internes — autant de signaux faibles qui, faute de traitement rapide, se muent en crises ouvertes. 'Les labels QVCT et les rapports RSE ne valent rien si le dialogue social est court-circuité dès que les enjeux financiers deviennent sérieux', tranche Nadia Bourgeois, directrice de recherche à l'ANACT. Pour les entreprises concernées, l'heure n'est plus aux déclarations d'intention : plusieurs cabinets RH parisiens signalent une hausse de 40 % des demandes de médiation sociale en urgence depuis le début de l'année."
+    },
+    "slackSeed": {
+      "messages": [
+        {
+          "time": "08:47",
+          "text": "Bonjour {{PRENOM}}, je te mets officiellement en charge du dossier social — j'aurais dû le faire il y a trois semaines, je le sais"
+        },
+        {
+          "time": "08:49",
+          "text": "la situation est tendue : absentéisme qui grimpe, des départs dans l'équipe content que je ne comprends pas encore, et le CSE qu'on a clairement négligé depuis le début des discussions avec Northgate. je ne veux pas qu'on se retrouve avec un conflit ouvert"
+        },
+        {
+          "time": "08:52",
+          "text": "j'ai besoin d'un état des lieux complet du climat social d'ici vendredi + une première liste de priorités d'action — on a six semaines max avant l'expiration du mandat CSE, c'est non-négociable"
+        }
+      ]
+    },
+    "completedAt": "2026-06-13T20:08:26.202Z"
   }
 }
