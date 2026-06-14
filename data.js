@@ -535,8 +535,42 @@ window.LUMIO_DATA = {
     "footer": "<em>1 jour fictif ≈ 11 minutes réelles · ratio ×74</em>"
   },
   "trash": {
-    "title": "La corbeille est vide.",
-    "body": "Mais l'idée est bonne. La plupart des consultants commencent par jeter quelque chose."
+    "items": [
+      {
+        "name": "draft_process_alerte_rh_v2.docx",
+        "size": "14 Ko",
+        "date": "8 mars",
+        "icon": "docx"
+      },
+      {
+        "name": "photo_reunion_content_fev.jpg",
+        "size": "3,2 Mo",
+        "date": "28 fév",
+        "icon": "img"
+      },
+      {
+        "name": "contacts_partenaires_rse.vcf",
+        "size": "1 Ko",
+        "date": "13 mars",
+        "icon": "vcf",
+        "trigger": "whatsapp"
+      }
+    ],
+    "whatsapp": {
+      "contact": "Sonia Ferracci",
+      "subtitle": "Directrice Marketing",
+      "messages": [
+        { "from": "Sonia Ferracci", "side": "left",  "time": "22:18", "text": "Théo. T'as vu le document RH sur la pétition ? Ça ne peut pas sortir comme ça." },
+        { "from": "Théo Marczak",   "side": "right", "time": "22:21", "text": "C'est une pétition interne. Ça reste confidentiel." },
+        { "from": "Sonia Ferracci", "side": "left",  "time": "22:22", "text": "Une 'pétition interne' qui cite mon management par son nom. Si ça fuite chez Northgate ou dans la presse..." },
+        { "from": "Théo Marczak",   "side": "right", "time": "22:24", "text": "Sonia, je t'arrête. Le problème ce n'est pas la pétition. C'est ce qui l'a provoquée." },
+        { "from": "Sonia Ferracci", "side": "left",  "time": "22:25", "text": "OK mais le timing est catastrophique. Les élections CSE dans 45 jours, des élus potentiels qui se mobilisent... t'as vraiment besoin de ça maintenant ?" },
+        { "from": "Théo Marczak",   "side": "right", "time": "22:27", "text": "J'ai besoin qu'on traite le fond. C'est pour ça que j'ai mandaté quelqu'un." },
+        { "from": "Sonia Ferracci", "side": "left",  "time": "22:28", "text": "Ce consultant·e... tu lui montres quoi exactement ?" },
+        { "from": "Théo Marczak",   "side": "right", "time": "22:30", "text": "Tout. C'est la seule façon que ça serve à quelque chose." },
+        { "from": "Sonia Ferracci", "side": "left",  "time": "22:32", "text": "Je te fais confiance. Mais je veux être dans la boucle avant qu'un rapport parte à l'extérieur." }
+      ]
+    }
   },
   "slack": {
     "workspace": "Lumio Health",
@@ -558,6 +592,13 @@ window.LUMIO_DATA = {
         "color": "#134547",
         "status": "online",
         "isCommanditaire": true
+      },
+      {
+        "id": "yassine",
+        "name": "Yassine Morel",
+        "avatar": "YM",
+        "color": "#7a5c1e",
+        "status": "away"
       }
     ],
     "seed": {
@@ -583,12 +624,30 @@ window.LUMIO_DATA = {
           "time": "08:21",
           "text": "j'ai besoin d'un plan structuré d'ici vendredi — prévention RPS, QVCT, agenda social CSE, et quelque chose de communicable pour les partenaires — priorités, étapes, qui fait quoi : sois précis(e)"
         }
+      ],
+      "yassine": [
+        {
+          "from": "Yassine Morel",
+          "avatar": "YM",
+          "color": "#7a5c1e",
+          "time": "09:02",
+          "text": "Bonjour {{PRENOM}}. J'ai entendu que tu intervenais sur la situation sociale ici. Je suis Yassine Morel, Content Manager."
+        },
+        {
+          "from": "Yassine Morel",
+          "avatar": "YM",
+          "color": "#7a5c1e",
+          "time": "09:04",
+          "text": "Je suis à l'origine de la pétition sur #lumio-vérité. Je voulais te le dire directement — avant que tu lises des versions filtrées de ce qui se passe dans notre équipe."
+        }
       ]
     }
   },
   "slackPrompts": {
     "commanditaire": "Tu es Théo Marczak, CEO de Lumio Health chez Lumio Health. Tu réponds à {{PRENOM}}, consultant·e externe sur la mission \"Signal d'alarme chez Lumio Health : entre burn-out silencieux et première négociation CSE\". Tu évalues sans expliquer, tu relances sans donner la réponse, tu simules la pression hiérarchique. Tu réponds en 2-3 messages courts séparés par ---SPLIT---. Pas de longs développements.",
-    "commanditaireLivrable": "Tu es Théo Marczak. Tu viens de recevoir le livrable de {{PRENOM}}. Tu réagis en 2-3 messages courts séparés par ---SPLIT---. Tu pointes ce qui te paraît juste et ce qui te paraît faible, sans expliquer comment corriger."
+    "commanditaireLivrable": "Tu es Théo Marczak. Tu viens de recevoir le livrable de {{PRENOM}}. Tu réagis en 2-3 messages courts séparés par ---SPLIT---. Tu pointes ce qui te paraît juste et ce qui te paraît faible, sans expliquer comment corriger.",
+    "yassine": "Tu es Yassine Morel, Content Manager de Lumio Health. Tu as organisé la pétition interne sur les conditions de travail dans ton équipe (#lumio-vérité). Tu as une RQTH en cours de renouvellement (surdité partielle unilatérale). Tu parles à {{PRENOM}}, consultant·e externe. Tu es prudent, tu mesures chaque mot, tu ne veux pas être perçu comme un lanceur d'alerte mais tu ne peux plus te taire. Tu révèles les faits progressivement et tu poses des questions sur la confidentialité du process. Tu réponds en 2-3 messages courts séparés par ---SPLIT---. Pas de longs développements.",
+    "yassinelivrable": "Tu es Yassine Morel. Tu viens de lire le livrable RH de {{PRENOM}}. Tu réagis en 2-3 messages courts séparés par ---SPLIT---. Tu vérifies si ta situation individuelle (RQTH, absences médicales) est traitée avec discernement, et si les préconisations protègent les salariés — pas seulement l'entreprise."
   },
   "pressArticles": [
     {
