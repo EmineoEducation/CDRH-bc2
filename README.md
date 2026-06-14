@@ -1,6 +1,6 @@
 # PAC BC2 — Gérer l'environnement professionnel et les relations sociales
 
-Manager des Ressources Humaines
+Chargé de développement des ressources humaines
 
 ## Déploiement
 1. Créer le repo `lumio-bc2` avec **tout le contenu de ce ZIP**.

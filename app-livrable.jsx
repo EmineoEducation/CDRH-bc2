@@ -1,5 +1,5 @@
 // ══════════════════════════════════════════════════════════════
-//  LIVRABLE APP · PAC bc2 · Manager des Ressources Humaines
+//  LIVRABLE APP · PAC bc2 · Chargé de développement des ressources humaines
 //  Composant générique — lit tout depuis window.PAC_CONFIG (competences, juryPrompt).
 // ══════════════════════════════════════════════════════════════
 
