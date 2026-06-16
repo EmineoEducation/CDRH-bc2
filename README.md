@@ -1,12 +1,11 @@
-# PAC BC2 — Gérer l'environnement professionnel et les relations sociales
+# PAC 2 — Gérer l'environnement professionnel et les relations sociales
 
-Chargé de développement des ressources humaines
+Responsable Ressources Humaines
 
 ## Déploiement
-1. Créer le repo `lumio-bc2` avec **tout le contenu de ce ZIP**.
+1. Créer le repo `lumio-2` avec **tout le contenu de ce ZIP**.
 2. `git push` → connecter le repo à Vercel.
-3. Variables Vercel : `ANTHROPIC_API_KEY`, `UPSTASH_REDIS_REST_URL`, `UPSTASH_REDIS_REST_TOKEN`, `RESEND_API_KEY`.
-   (option `PORTFOLIO_FROM` = expéditeur vérifié sur Resend, ex. "Éminéo PAC <portfolio@emineo.fr>").
+3. Variables Vercel : `ANTHROPIC_API_KEY`, `UPSTASH_REDIS_REST_URL`, `UPSTASH_REDIS_REST_TOKEN`.
 
 ## À compléter (contenu narratif)
 Le runtime tourne immédiatement, mais le contenu des apps chrome (emails, PDF, presse) est encore générique.
