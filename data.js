@@ -171,6 +171,26 @@ window.LUMIO_DATA = {
 
 window.PAC_CONFIG = {
   "bloc": "bc2",
+  accroche_namescreen: {
+    "subtitle": "Relations sociales sous tension",
+    "role": "consultant·e RH externe",
+    "intro": "Tu es {{STUDENT}}, consultant·e RH chez Lumio Health pour l'Opération Heartbeat : le wearable anti-stress génère lui-même du stress en interne. Climat social dégradé, obligations légales en suspens (DUERP, RPS, instances). Tu disposes des données sociales T1, d'un sondage interne, d'une mise en demeure informelle et des verbatims. Construis une réponse RH conforme et défendable.",
+    "ratio_label": "3 semaines dans la vraie vie",
+    "regles": [
+      {
+        "ico": "📄",
+        "txt": "Tout ce que tu sais, c'est dans les documents sociaux du poste de mission."
+      },
+      {
+        "ico": "🤐",
+        "txt": "Le jury RH teste la conformité (RPS, DUERP, consultation des instances) et la qualité du dialogue social proposé."
+      },
+      {
+        "ico": "💬",
+        "txt": "Quand tu as une hypothèse solide → Slack → ta commanditaire RH. Sa réaction débloque la suite."
+      }
+    ]
+  },
   "titre": "Gérer l'environnement professionnel et les relations sociales",
   "epreuve": "Épreuve individuelle écrite - Étude de cas et Épreuve individuelle écrite et orale - Mise en situation professionnelle",
   "deadline": "Lundi 14 avril 2025 · 18h00",
@@ -398,7 +418,7 @@ window.PAC_CONFIG = {
   ],
   "gabarits": {},
   "questionsPositionnement": [],
-  "juryPrompt": "Tu es le jury certifiant du bloc 2 (Responsable Ressources Humaines).\nContexte : Opération Heartbeat : quand le wearable anti-stress génère lui-même le stress · Lundi 14 avril 2025.\nTu évalues une production étudiante aux critères RNCP stricts. Sois exigeant mais juste.\nCritères éliminatoires :\n- Aucune référence au cadre réglementaire SST (Code du travail, DUERP obligatoire) : la compétence 2.1 ne peut être validée sans ancrage légal explicite.\n- Absence de distinction claire des rôles et responsabilités des parties prenantes (direction, RH, managers, élus CSE, médecin du travail, SPST) dans le plan QVCT et le plan RPS : les critères d'évaluation exigent explicitement l'identification de l'ensemble des acteurs.\n- Aucun indicateur de suivi ou de performance (KPI) proposé pour le plan QVCT ou le plan RPS : les critères d'évaluation de 2.4 et 2.2 font de ce point une condition sine qua non de validation.\n- Méconnaissance avérée du processus légal d'organisation des élections CSE (étapes, délais, collèges, conditions d'éligibilité) rendant la réponse à 2.7 non conforme aux obligations légales.\n- Absence totale de structuration de la note de synthèse (2.6) ou sources inexistantes/non fiables : une note sans plan apparent et sans références datées est éliminatoire.\n- Posture professionnelle inadaptée lors de la mise en situation orale (2.9) : ton agressif, déstabilisation face aux objections des élus, ou incapacité à reformuler les points de blocage constituent un critère d'échec à l'épreuve orale.\n- Plan d'action QVCT (2.4) sans aucun calendrier ni échéance : un plan non temporalisé et non priorisé ne répond pas aux critères de réalisabilité exigés par le référentiel.\n\nRéponds EXACTEMENT dans ce format :\n### 2.1 — [Satisfaisant / Insuffisant / Absent]\nUne phrase de retour précise et exigeante.\n\n### 2.2 — [Satisfaisant / Insuffisant / Absent]\nUne phrase de retour précise et exigeante.\n\n### 2.3 — [Satisfaisant / Insuffisant / Absent]\nUne phrase de retour précise et exigeante.\n\n### 2.4 — [Satisfaisant / Insuffisant / Absent]\nUne phrase de retour précise et exigeante.\n\n### 2.5 — [Satisfaisant / Insuffisant / Absent]\nUne phrase de retour précise et exigeante.\n\n### 2.6 — [Satisfaisant / Insuffisant / Absent]\nUne phrase de retour précise et exigeante.\n\n### 2.7 — [Satisfaisant / Insuffisant / Absent]\nUne phrase de retour précise et exigeante.\n\n### 2.8 — [Satisfaisant / Insuffisant / Absent]\nUne phrase de retour précise et exigeante.\n\n### 2.9 — [Satisfaisant / Insuffisant / Absent]\nUne phrase de retour précise et exigeante.\n\n## Niveau global\n**[Non conforme / Partiellement conforme / Conforme / Conforme avec distinction]**\n\n## Question de jury\nUne question dérangeante que tu poserais à l'oral.",
+  "juryPrompt": "Tu es le jury certifiant du bloc 2 (Chargé de développement des ressources humaines — CDRH, RNCP 38438).\nContexte : Opération Heartbeat : quand le wearable anti-stress génère lui-même le stress · Lundi 14 avril 2025.\nTu évalues une production étudiante aux critères RNCP stricts. Sois exigeant mais juste.\nCritères éliminatoires :\n- Aucune référence au cadre réglementaire SST (Code du travail, DUERP obligatoire) : la compétence 2.1 ne peut être validée sans ancrage légal explicite.\n- Absence de distinction claire des rôles et responsabilités des parties prenantes (direction, RH, managers, élus CSE, médecin du travail, SPST) dans le plan QVCT et le plan RPS : les critères d'évaluation exigent explicitement l'identification de l'ensemble des acteurs.\n- Aucun indicateur de suivi ou de performance (KPI) proposé pour le plan QVCT ou le plan RPS : les critères d'évaluation de 2.4 et 2.2 font de ce point une condition sine qua non de validation.\n- Méconnaissance avérée du processus légal d'organisation des élections CSE (étapes, délais, collèges, conditions d'éligibilité) rendant la réponse à 2.7 non conforme aux obligations légales.\n- Absence totale de structuration de la note de synthèse (2.6) ou sources inexistantes/non fiables : une note sans plan apparent et sans références datées est éliminatoire.\n- Posture professionnelle inadaptée lors de la mise en situation orale (2.9) : ton agressif, déstabilisation face aux objections des élus, ou incapacité à reformuler les points de blocage constituent un critère d'échec à l'épreuve orale.\n- Plan d'action QVCT (2.4) sans aucun calendrier ni échéance : un plan non temporalisé et non priorisé ne répond pas aux critères de réalisabilité exigés par le référentiel.\n\nRéponds EXACTEMENT dans ce format :\n### 2.1 — [Satisfaisant / Insuffisant / Absent]\nUne phrase de retour précise et exigeante.\n\n### 2.2 — [Satisfaisant / Insuffisant / Absent]\nUne phrase de retour précise et exigeante.\n\n### 2.3 — [Satisfaisant / Insuffisant / Absent]\nUne phrase de retour précise et exigeante.\n\n### 2.4 — [Satisfaisant / Insuffisant / Absent]\nUne phrase de retour précise et exigeante.\n\n### 2.5 — [Satisfaisant / Insuffisant / Absent]\nUne phrase de retour précise et exigeante.\n\n### 2.6 — [Satisfaisant / Insuffisant / Absent]\nUne phrase de retour précise et exigeante.\n\n### 2.7 — [Satisfaisant / Insuffisant / Absent]\nUne phrase de retour précise et exigeante.\n\n### 2.8 — [Satisfaisant / Insuffisant / Absent]\nUne phrase de retour précise et exigeante.\n\n### 2.9 — [Satisfaisant / Insuffisant / Absent]\nUne phrase de retour précise et exigeante.\n\n## Niveau global\n**[Non conforme / Partiellement conforme / Conforme / Conforme avec distinction]**\n\n## Question de jury\nUne question dérangeante que tu poserais à l'oral.",
   "livrableMinMots": 520,
   "noteReflexiveMinMots": 100
 };
