@@ -166,7 +166,36 @@ window.LUMIO_DATA = {
         "channel": "DM"
       }
     ]
-  }
+  },
+  "voiceMemos": [
+    {
+      "title": "Absentéisme à 9,4 % — on a un problème systémique",
+      "author": "Isabelle Kwan",
+      "role": "Directrice des Ressources Humaines",
+      "date": "15 janvier 2025",
+      "context": "mémo dicté après analyse des indicateurs trimestriels",
+      "durationSec": 50,
+      "transcript": "Les chiffres du premier trimestre sont tombés. Taux d'absentéisme à 9,4 %, contre 4,2 % il y a un an. Les arrêts se concentrent sur deux équipes : Marketing et Content. Deux démissions surprise chez Content le mois dernier. Et il y a ce questionnaire que Yassine a fait circuler sans validation RH — les résultats font le tour des couloirs et alimentent les tensions. Les onze salariés Lumio Arc qui portent le bracelet commencent à poser des questions sur la collecte de données physiologiques par leur propre employeur. On est une boîte qui vend du bien-être au travail et nos indicateurs internes sont au rouge. C'est un problème de crédibilité autant que de santé."
+    },
+    {
+      "title": "Le questionnaire Yassine — un vrai sujet juridique",
+      "author": "Théo Marczak",
+      "role": "CEO Lumio Health",
+      "date": "18 janvier 2025",
+      "context": "mémo dicté après réunion informelle avec Isabelle",
+      "durationSec": 43,
+      "transcript": "On a un problème avec le questionnaire interne que Yassine a lancé. Il n'a pas été validé par les RH, il n'a pas été anonymisé correctement, et les résultats circulent librement. Certaines réponses permettent d'identifier les personnes. Au-delà du RGPD, c'est une bombe sociale : les gens ont écrit des choses très directes sur le management, la charge de travail, et le sentiment de surveillance lié au bracelet. Il faut cadrer la réponse officielle de l'entreprise avant que ça ne dégénère en crise ouverte."
+    },
+    {
+      "title": "Signal d'alerte — tension entre Marketing et B2B",
+      "author": "Camille Ott",
+      "role": "Responsable partenariats B2B",
+      "date": "20 janvier 2025",
+      "context": "mémo dicté après déjeuner avec un collègue",
+      "durationSec": 37,
+      "transcript": "Il y a une vraie fracture entre l'équipe Marketing de Sonia et mon équipe B2B. Les commerciaux trouvent que le Marketing ne comprend pas les cycles de vente longs. Le Marketing pense que le B2B freine l'innovation. Ça se traduit par des réunions tendues, des mails passifs-agressifs, et des gens qui ne se parlent plus. Deux personnes de l'équipe Content m'ont dit off qu'elles cherchaient ailleurs. Si on ne fait rien, on va perdre des compétences clés au pire moment."
+    }
+  ]
 };
 
 window.PAC_CONFIG = {
