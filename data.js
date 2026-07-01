@@ -152,7 +152,7 @@ window.LUMIO_DATA = {
   "slackMessages": {
     "initial": [
       {
-        "from": "Théo Marczak",
+        "from": "Isabelle Kwan",
         "time": "08:32",
         "text": "{{PRENOM}} — Rétablir la conformité sociale (CSE en retard), apaiser le climat social dégradé, construire un dispositif QVCT solide et démontrer à Northgate que Lumio Health est un employeur responsable — le tout en moins de onze semaines sous peine de perdre 6 M€ de financement.",
         "read": true
@@ -160,7 +160,7 @@ window.LUMIO_DATA = {
     ],
     "delayed": [
       {
-        "from": "Théo Marczak",
+        "from": "Isabelle Kwan",
         "time": "+15min",
         "text": "{{PRENOM}}, dès que tu as une hypothèse solide, envoie-la moi ici.",
         "channel": "DM"
@@ -247,7 +247,7 @@ window.PAC_CONFIG = {
   "titre": "Gérer l'environnement professionnel et les relations sociales",
   "epreuve": "Épreuve individuelle écrite - Étude de cas et Épreuve individuelle écrite et orale - Mise en situation professionnelle",
   "deadline": "Lundi 14 avril 2025 · 18h00",
-  "commanditaire": "Théo Marczak",
+  "commanditaire": "Isabelle Kwan",
   "dispositif": "PAC",
   "note_reflexive": false,
   "temps": [
