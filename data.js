@@ -196,6 +196,30 @@ window.LUMIO_DATA = {
       "transcript": "Il y a une vraie fracture entre l'équipe Marketing de Sonia et mon équipe B2B. Les commerciaux trouvent que le Marketing ne comprend pas les cycles de vente longs. Le Marketing pense que le B2B freine l'innovation. Ça se traduit par des réunions tendues, des mails passifs-agressifs, et des gens qui ne se parlent plus. Deux personnes de l'équipe Content m'ont dit off qu'elles cherchaient ailleurs. Si on ne fait rien, on va perdre des compétences clés au pire moment."
     }
   ]
+,
+  "finder": {
+    "folders": {
+      "guide": {
+        "title": "Guide de mission",
+        "sidebar": "⌘ Guide",
+        "icon": "📕",
+        "items": [
+          { "kind": "mail", "name": "Brief de mission", "app": "mail", "props": { "openId": "brief" } }
+        ]
+      },
+      "espace": {
+        "title": "Espace de travail",
+        "sidebar": "Espace de travail",
+        "icon": "📁",
+        "items": [
+          { "kind": "mail", "name": "Boîte mail", "app": "mail", "props": {} },
+          { "kind": "note", "name": "Notes", "app": "notes", "props": {} },
+          { "kind": "audio", "name": "Mémos vocaux", "app": "voice", "props": {} }
+        ]
+      }
+    },
+    "order": ["guide", "espace"]
+  }
 };
 
 window.PAC_CONFIG = {
