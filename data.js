@@ -477,3 +477,714 @@ window.PAC_CONFIG = {
 };
 // Alias de compatibilité (les apps existantes lisent encore PASS_CONFIG)
 window.PASS_CONFIG = window.PAC_CONFIG;
+
+
+// === [Chantier PDF+Browser] dossiers/guide/portraits — 02/07/2026 ===
+// Restructuration de D.documents[]/D.deckBoard/D.yassineVeille (déjà écrits) en
+// D.dossiers[]/D.guide pour app-pdf.jsx. Ajout D.portraits[] (5 personnages
+// universels, fichiers déjà déployés dans /portraits/) + dossier Finder dédié.
+// Aucun contenu narratif nouveau : uniquement restructuration + câblage.
+(function() {
+  var D = window.LUMIO_DATA;
+  if (!D) return;
+  D.dossiers = [
+  {
+    "id": "DOC-01",
+    "title": "URGENT — Feuille de route RH avant le 30 juin : engagement Northgate",
+    "tab": "URGENT — Feuille de route RH …",
+    "accent": "#1b3a6b",
+    "warning": false,
+    "type": "rich",
+    "pages": [
+      {
+        "kicker": "Théo Marczak (CEO)",
+        "title": "URGENT — Feuille de route RH avant le 30 juin : engagement Northgate",
+        "byline": "email · Acte 1",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "{{PRENOM}},"
+          },
+          {
+            "type": "p",
+            "text": "Jakob Rein a conditionné le déblocage des 6 M€ de la tranche B à la transmission d'un dossier de conformité sociale complet avant le 31 mars 2025. Il m'a envoyé une liste de 8 points de vérification."
+          },
+          {
+            "type": "p",
+            "text": "Nous sommes non-conformes sur la quasi-totalité :\n1. CSE non constitué — seuil 50 ETP franchi en septembre 2024\n2. DUERP non mis à jour depuis 14 mois\n3. Politique QVCT inexistante — pas de procédure d'alerte RPS\n4. Index égalité professionnelle H/F non calculé\n5. Accord télétravail sans consultation formelle des salariés\n6. RSE non publiée\n7. Plan de formation 2025 non validé\n8. Référent handicap non désigné"
+          },
+          {
+            "type": "p",
+            "text": "Vous avez 11 semaines. Je veux un plan d'action structuré sur chacun de ces 8 points avec des actions concrètes, des responsables désignés et des jalons hebdomadaires. Ce dossier ira directement à Northgate."
+          },
+          {
+            "type": "p",
+            "text": "Soyons clairs sur les enjeux : si on n'est pas conformes au 31 mars, Northgate peut décider de décaler ou de réduire son engagement financier. Je ne peux pas laisser ça arriver."
+          },
+          {
+            "type": "p",
+            "text": "— Théo Marczak"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "DOC-02",
+    "title": "Données sociales T1 2025 — Lumio Health (export SIRH)",
+    "tab": "Données sociales T1 2025 — Lu…",
+    "accent": "#c4420f",
+    "warning": false,
+    "type": "rich",
+    "pages": [
+      {
+        "kicker": "Service paie / RH interne",
+        "title": "Données sociales T1 2025 — Lumio Health (export SIRH)",
+        "byline": "tableau_excel_anonymise · Acte 1",
+        "blocks": [
+          {
+            "type": "h3",
+            "text": "NOTE RH — DONNÉES SOCIALES INTERNES"
+          },
+          {
+            "type": "p",
+            "text": "Période de référence : mars 2024 — mars 2025\nSource : export SIRH Lucca + données cabinet Altas"
+          },
+          {
+            "type": "h3",
+            "text": "INDICATEURS D'ALERTE :"
+          },
+          {
+            "type": "ul",
+            "items": [
+              "ABSENTÉISME : 9,4 % (secteur services numériques : 5,2 %) → +80 % au-dessus de la norme sectorielle",
+              "Principaux motifs : arrêts maladie courte durée (< 8 jours) = 54 %, arrêts longue durée = 38 %, accidents de travail = 8 %",
+              "Concentration : département Marketing (4 arrêts sur 7 personnes) et département Produit (3 arrêts sur 9)"
+            ]
+          },
+          {
+            "type": "ul",
+            "items": [
+              "TURN-OVER : 18 % sur 12 mois (secteur : 12 %)",
+              "2 démissions non anticipées dans l'équipe Content (dont Yassine Morel en arrêt puis potentielle démission)",
+              "3 fins de période d'essai à l'initiative du salarié en 6 mois (signe d'inadéquation dans le recrutement ou l'intégration)"
+            ]
+          },
+          {
+            "type": "ul",
+            "items": [
+              "HEURES SUPPLÉMENTAIRES : 6,2 heures supplémentaires non récupérées par salarié en moyenne par semaine",
+              "Maximum observé : 14h sup/semaine (Camille Ott, semaines de déplacement Northgate)",
+              "Comptabilisation dans le SIRH insuffisante — données probablement sous-déclarées"
+            ]
+          },
+          {
+            "type": "ul",
+            "items": [
+              "ARRÊTS LONGUE DURÉE : 4 arrêts > 30 jours dont 3 diagnostics burnout confirmés",
+              "Médecin du travail a signalé 4 cas de syndrome d'épuisement professionnel en 6 mois",
+              "Aucun de ces cas n'a fait l'objet d'un signalement RPS formalisé"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "NOTE : Ces données n'ont pas encore été présentées au CODIR ni au CSE (non constitué). Elles sont transmises directement à la mission RH externe pour diagnostic."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "DOC-03",
+    "title": "Résultats de mon petit sondage 😬 — à discuter en réunion ?",
+    "tab": "Résultats de mon petit sondag…",
+    "accent": "#0a7a6e",
+    "warning": false,
+    "type": "rich",
+    "pages": [
+      {
+        "kicker": "Yassine Morel (Content) → channel #general",
+        "title": "Résultats de mon petit sondage 😬 — à discuter en réunion ?",
+        "byline": "message_slack · Acte 2",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "CANAL SLACK #general — Lumio Health\nMessage de Yassine Morel · le 8 mars 2025 à 17h43"
+          },
+          {
+            "type": "p",
+            "text": "Yassine Morel [17h43] : Hey l'équipe 👋 J'ai fait une petite enquête rapide cette semaine sur le bien-être — 34 réponses sur 52 personnes (65 % de participation, pas mal). Voilà ce que ça dit en 3 chiffres :\n• 61 % se sentent souvent ou très souvent stressés au travail\n• 44 % jugent leur charge de travail excessive sur les 3 derniers mois\n• 71 % disent manquer de temps pour faire leur travail correctement\nJe ne tire pas de conclusions, je partage juste les données. À vous d'en faire ce que vous voulez."
+          },
+          {
+            "type": "p",
+            "text": "[23 réactions dont : 🔥 × 8 · 😬 × 6 · 💯 × 5 · ❤️ × 4]"
+          },
+          {
+            "type": "p",
+            "text": "Sonia Ferracci [17h51] : Yassine, tu aurais dû me parler avant de diffuser ça. On en discute ?"
+          },
+          {
+            "type": "p",
+            "text": "Yassine Morel [17h53] : Je voulais juste que les données soient visibles. C'est anonyme."
+          },
+          {
+            "type": "p",
+            "text": "Théo Marczak [18h12] : Merci pour le signal Yassine. On va traiter ça sérieusement."
+          },
+          {
+            "type": "p",
+            "text": "[NOTE RH : Ce questionnaire n'a pas été validé par le service RH. La méthodologie est non standardisée (questionnaire maison Slack, biais de sélection probable). Les résultats ne peuvent pas être utilisés directement comme base d'évaluation du climat social sans audit complémentaire. Cependant, ils constituent un signal d'alerte légitime. Action recommandée : lancer un baromètre social structuré dans les 3 semaines.]"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "DOC-04",
+    "title": "Mise en demeure informelle — Obligation de mise en place du CSE",
+    "tab": "Mise en demeure informelle — …",
+    "accent": "#5c2d8f",
+    "warning": false,
+    "type": "rich",
+    "pages": [
+      {
+        "kicker": "Collectif de 11 salariés cadres — Lumio Health",
+        "title": "Mise en demeure informelle — Obligation de mise en place du CSE",
+        "byline": "courrier_recommande · Acte 2",
+        "blocks": [
+          {
+            "type": "h3",
+            "text": "LETTRE RECOMMANDÉE AVEC AR"
+          },
+          {
+            "type": "p",
+            "text": "Date d'envoi : 12 mars 2025\nDe : Un groupe de 7 salariés cadres de Lumio Health (signatures anonymisées dans cette version)\nÀ : Théo Marczak, CEO Lumio Health\nObjet : Demande formelle d'organisation des élections du Comité Social et Économique"
+          },
+          {
+            "type": "p",
+            "text": "Monsieur le Directeur Général,"
+          },
+          {
+            "type": "p",
+            "text": "Nous vous adressons cette demande formelle d'organisation des élections du Comité Social et Économique (CSE) de Lumio Health."
+          },
+          {
+            "type": "p",
+            "text": "Le seuil légal de 50 équivalents temps plein (ETP) a été franchi et maintenu de manière continue depuis le mois d'août 2024 (source : données SIRH Lucca disponibles). En application des articles L.2311-2 et L.2314-8 du Code du travail, vous êtes tenu d'organiser les élections du CSE dans les 90 jours suivant ce franchissement. Ce délai est écoulé depuis le mois de novembre 2024."
+          },
+          {
+            "type": "p",
+            "text": "Lumio Health se trouve donc depuis cette date en infraction caractérisée au regard du droit du travail. Cette situation est susceptible d'être qualifiée de délit d'entrave à la constitution du CSE, passible de 7 500 € d'amende et d'un an d'emprisonnement en application de l'article L.2317-1."
+          },
+          {
+            "type": "p",
+            "text": "Afin de nous assurer que cette situation est bien connue des autorités compétentes, nous avons informé l'Inspection du Travail du 11e arrondissement de Paris de notre démarche le 10 mars 2025, à titre informatif et sans déposer de plainte formelle à ce stade."
+          },
+          {
+            "type": "p",
+            "text": "Nous vous demandons de nous confirmer par écrit, dans un délai de 7 jours calendaires, votre engagement à lancer la procédure d'organisation des élections du CSE selon le protocole préélectoral prévu à l'article L.2314-5 du Code du travail."
+          },
+          {
+            "type": "p",
+            "text": "Veuillez agréer, Monsieur, l'expression de notre considération."
+          },
+          {
+            "type": "p",
+            "text": "[Signatures — 7 salariés dont les noms sont connus de la direction mais anonymisés dans cette version RH]"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "DOC-05",
+    "title": "Point stratégique : tension Marketing / B2B et politique de rémunération",
+    "tab": "Point stratégique : tension M…",
+    "accent": "#7a3b46",
+    "warning": false,
+    "type": "rich",
+    "pages": [
+      {
+        "kicker": "Théo Marczak — CoDir du 7 avril 2025",
+        "title": "Point stratégique : tension Marketing / B2B et politique de rémunération",
+        "byline": "compte_rendu_comite_direction · Acte 3",
+        "blocks": [
+          {
+            "type": "h3",
+            "text": "COMPTE RENDU DE CODIR EXTRAORDINAIRE"
+          },
+          {
+            "type": "p",
+            "text": "Date : 10 mars 2025 · 14h00–15h45\nParticipants : Théo Marczak, Sonia Ferracci, Camille Ott, Marc Lefebvre, Aline Dupuis (CFO)\nRédigé par : Nadia Benhacène"
+          },
+          {
+            "type": "p",
+            "text": "SUJET UNIQUE : Répartition des primes liées à la signature du contrat Northgate"
+          },
+          {
+            "type": "p",
+            "text": "Théo Marczak ouvre la réunion en rappelant qu'une prime exceptionnelle de 45 000 € a été actée en CODIR de février pour récompenser les équipes ayant contribué à la signature Northgate. La répartition n'a pas été formalisée à l'avance."
+          },
+          {
+            "type": "h3",
+            "text": "PROPOSITION THÉO :"
+          },
+          {
+            "type": "ul",
+            "items": [
+              "Sonia Ferracci : 18 000 € (pilotage stratégique de la relation Northgate)",
+              "Camille Ott : 12 000 € (contribution commerciale B2B)",
+              "Marc Lefebvre : 8 000 € (demo produit, support technique)",
+              "Pool équipe : 7 000 € (à répartir par les managers)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "RÉACTION CAMILLE OTT :"
+          },
+          {
+            "type": "p",
+            "text": "\"Je ne comprends pas cette répartition. C'est moi qui ai identifié Northgate en premier, conduit les 4 réunions préparatoires, et produit les trois dossiers de démo. Sonia est arrivée à la dernière réunion. Je ne dis pas qu'elle n'a pas apporté de valeur, mais 18k vs 12k, avec mon ancienneté et ma contribution terrain, c'est incompréhensible.\""
+          },
+          {
+            "type": "h3",
+            "text": "RÉACTION SONIA FERRACCI :"
+          },
+          {
+            "type": "p",
+            "text": "\"Mon rôle a été stratégique. C'est moi qui ai réorienté le pitch Northgate quand le premier format ne fonctionnait pas. Je comprends que Camille soit frustrée, mais la valeur créée ne se mesure pas au nombre de réunions.\""
+          },
+          {
+            "type": "p",
+            "text": "THÉO MARCZAK : \"Je vais y réfléchir et revenir avec une proposition finale dans les 3 jours.\""
+          },
+          {
+            "type": "p",
+            "text": "[NOTE RH : Conflit interpersonnel non résolu. Aucun critère d'attribution des primes n'a été formalisé en amont. Cette situation constitue un facteur de risque psychosocial de niveau moyen (conflit de reconnaissance). Une politique de rémunération variable avec critères écrits est recommandée pour prévenir la répétition de ce type de tension.]"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "DOC-06",
+    "title": "Due diligence sociale — checklist pré-déblocage tranche B",
+    "tab": "Due diligence sociale — check…",
+    "accent": "#1a6641",
+    "warning": false,
+    "type": "rich",
+    "pages": [
+      {
+        "kicker": "Jakob Rein (Northgate Capital) → Théo Marczak",
+        "title": "Due diligence sociale — checklist pré-déblocage tranche B",
+        "byline": "email · Acte 3",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "De : Jakob Rein — Northgate Capital\nÀ : Théo Marczak\nObjet : Due diligence sociale — 8 points de vérification avant déblocage tranche B\nDate : 7 mars 2025"
+          },
+          {
+            "type": "p",
+            "text": "Théo,"
+          },
+          {
+            "type": "p",
+            "text": "Suite à notre call de mardi, voici les 8 points que nos équipes vérifieront avant de débloquer la tranche B (6 M€) prévue le 2 mai 2025. Je te demande de me transmettre un dossier complet avant le 31 mars."
+          },
+          {
+            "type": "h3",
+            "text": "1. CSE CONSTITUÉ"
+          },
+          {
+            "type": "p",
+            "text": "Preuve : procès-verbal des élections + composition du CSE. Une absence de CSE pour une entreprise de plus de 50 ETP est un délit en France. Ce point est bloquant."
+          },
+          {
+            "type": "h3",
+            "text": "2. DUERP À JOUR"
+          },
+          {
+            "type": "p",
+            "text": "Le Document Unique d'Évaluation des Risques Professionnels doit avoir été mis à jour dans les 12 derniers mois, avec volet RPS spécifique."
+          },
+          {
+            "type": "h3",
+            "text": "3. POLITIQUE QVCT"
+          },
+          {
+            "type": "p",
+            "text": "Document formalisé décrivant les objectifs, les actions et les indicateurs de votre politique Qualité de Vie et des Conditions de Travail."
+          },
+          {
+            "type": "h3",
+            "text": "4. INDICATEURS RSE PUBLIÉS"
+          },
+          {
+            "type": "p",
+            "text": "Rapport RSE ou tableau de bord ESG avec a minima : émissions carbone (scope 1 et 2), taux de femmes dans l'encadrement, politique d'accessibilité pour les salariés en situation de handicap."
+          },
+          {
+            "type": "h3",
+            "text": "5. INDEX ÉGALITÉ PROFESSIONNELLE H/F"
+          },
+          {
+            "type": "p",
+            "text": "Obligatoire dès 50 ETP. Le non-calcul est sanctionnable d'une pénalité financière."
+          },
+          {
+            "type": "h3",
+            "text": "6. ACCORD TÉLÉTRAVAIL"
+          },
+          {
+            "type": "p",
+            "text": "Document signé ou charte unilatérale formalisant les modalités du télétravail après consultation des représentants du personnel (ou des salariés si pas de CSE)."
+          },
+          {
+            "type": "h3",
+            "text": "7. PLAN DE FORMATION 2025"
+          },
+          {
+            "type": "p",
+            "text": "Plan de développement des compétences validé pour l'exercice 2025, incluant budget, actions prioritaires et indicateurs."
+          },
+          {
+            "type": "h3",
+            "text": "8. NOTE DE SYNTHÈSE DROIT SOCIAL"
+          },
+          {
+            "type": "p",
+            "text": "Nous souhaitons une note synthétique rédigée par ou validée par un juriste confirmé, attestant de la conformité au droit du travail français sur les principaux sujets (contrats, paie, temps de travail, handicap)."
+          },
+          {
+            "type": "p",
+            "text": "Je compte sur toi pour que ce dossier soit complet. Northgate n'est pas un partenaire qui fait des exceptions sur la conformité réglementaire."
+          },
+          {
+            "type": "p",
+            "text": "— Jakob Rein"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "DOC-07",
+    "title": "Bilan de la visite périodique de l'entreprise — Lumio Health — mars 2025",
+    "tab": "Bilan de la visite périodique…",
+    "accent": "#2d6a4f",
+    "warning": true,
+    "type": "rich",
+    "pages": [
+      {
+        "kicker": "Dr. Isabelle Fontaine — SPST Île-de-France",
+        "title": "Bilan de la visite périodique de l'entreprise — Lumio Health — mars 2025",
+        "byline": "rapport_medecin_travail · Acte 4",
+        "blocks": [
+          {
+            "type": "h3",
+            "text": "SERVICE DE SANTÉ AU TRAVAIL — AIST 75"
+          },
+          {
+            "type": "p",
+            "text": "Médecin du travail référente : Dr. Marie-Claire Fontaine\nDate : 6 mars 2025\nDestinataire : Théo Marczak, CEO Lumio Health — CONFIDENTIEL"
+          },
+          {
+            "type": "p",
+            "text": "Objet : Signalement et recommandations formelles — État de santé des salariés Lumio Health"
+          },
+          {
+            "type": "p",
+            "text": "Monsieur,"
+          },
+          {
+            "type": "p",
+            "text": "Suite à mes visites médicales des 6 derniers mois (27 visites réalisées) et à des entretiens individuels confidentiels avec plusieurs de vos collaborateurs, je me permets de vous adresser ce courrier de signalement, que je suis tenue de conserver dans votre dossier."
+          },
+          {
+            "type": "h3",
+            "text": "SIGNALEMENTS :"
+          },
+          {
+            "type": "ul",
+            "items": [
+              "4 cas présentant des symptômes compatibles avec un syndrome d'épuisement professionnel ont été identifiés en 6 mois. Dans 3 cas, un arrêt de travail a été prescrit. Dans 1 cas, l'état ne justifie pas encore d'arrêt mais la situation est préoccupante.",
+              "Les principaux facteurs de risque identifiés lors des entretiens : charge de travail excessive et prolongée, manque de soutien hiérarchique, absence de reconnaissance, incertitude sur l'organisation du travail.",
+              "Vos locaux présentent des niveaux sonores en open space mesurés entre 68 et 74 dB sur les plages de travail intensif — au-dessus du seuil de 65 dB recommandé par l'INRS pour les activités de concentration."
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "RECOMMANDATIONS FORMELLES :"
+          },
+          {
+            "type": "p",
+            "text": "1. Mise à jour immédiate du DUERP avec évaluation des facteurs de risques psychosociaux selon la méthode GOLLAC — à réaliser avant fin avril 2025.\n2. Désignation d'un référent RPS interne avant fin mai 2025, avec formation d'une journée minimum.\n3. Mise en place d'une procédure d'alerte formalisée, accessible à tous les salariés, précisant à qui s'adresser en cas de situation de souffrance au travail.\n4. Étude acoustique de l'espace de travail avec préconisations d'aménagement."
+          },
+          {
+            "type": "p",
+            "text": "Je reste disponible pour un entretien avec vous ou avec votre responsable RH."
+          },
+          {
+            "type": "p",
+            "text": "Dr. Marie-Claire Fontaine\nMédecin du travail — AIST 75"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "DOC-08",
+    "title": "En off — ce que je n'ai pas dit en CoDir",
+    "tab": "En off — ce que je n'ai pas d…",
+    "accent": "#a0522d",
+    "warning": false,
+    "type": "rich",
+    "pages": [
+      {
+        "kicker": "Sonia Ferracci (DirMkt) → RRH (confidentiel)",
+        "title": "En off — ce que je n'ai pas dit en CoDir",
+        "byline": "note_interne · Acte 5",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "De : Sonia Ferracci\nÀ : Mission RH externe — CONFIDENTIEL\nDate : 13 mars 2025\nObjet : Échange confidentiel — ce que je ne peux pas dire en CODIR"
+          },
+          {
+            "type": "p",
+            "text": "Bonjour,"
+          },
+          {
+            "type": "p",
+            "text": "Je vous fais confiance pour traiter ça avec discrétion."
+          },
+          {
+            "type": "p",
+            "text": "Depuis la levée de fonds et la signature Northgate, quelque chose a changé dans l'ambiance. Théo est sous pression permanente — ça se voit dans ses mails du soir, dans ses interventions en CODIR, dans la façon dont il réagit quand quelque chose ne va pas dans les timelines. Je comprends la pression. Mais ça commence à se ressentir sur les équipes."
+          },
+          {
+            "type": "p",
+            "text": "Deux membres de mon équipe m'ont dit qu'ils regardaient ailleurs. Pas qu'ils allaient partir demain, mais qu'ils regardaient. Ce sont des gens très bien, avec de l'ancienneté, et je ne voudrais pas les perdre maintenant. Je ne peux pas transmettre ça à Théo tellement que ça viendrait le mettre sous pression supplémentaire."
+          },
+          {
+            "type": "p",
+            "text": "Et pour être honnête avec vous : moi-même je ressens une forme de fatigue. J'ai l'impression d'être arrivée dans une belle entreprise avec un vrai projet, et de me retrouver dans une course permanente où rien n'est jamais assez vite. Je gère le conflit avec Camille sur les primes — que Théo n'a toujours pas tranché — en plus du reste."
+          },
+          {
+            "type": "p",
+            "text": "Est-ce qu'il existe des dispositifs d'accompagnement managérial confidentiels ? Un espace où les managers peuvent parler de leurs propres difficultés sans que ça remonte à la direction ? Je ne veux pas démissionner. Je veux que ça aille mieux."
+          },
+          {
+            "type": "p",
+            "text": "— Sonia Ferracci"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "deck-board",
+    "title": "Lumio Health — Dispositif QVCT & conformité sociale : état des lieux et plan d'action",
+    "tab": "Présentation CODIR",
+    "accent": "#1b3a6b",
+    "type": "deck",
+    "subtitle": "Présentation",
+    "slides": [
+      {
+        "titre": "Contexte",
+        "contenu": "Lumio Health : 52 ETP, croissance +60 % en 18 mois. Due diligence Northgate au 31 mars. 8 exigences de conformité sociale identifiées par Jakob Rein. Délai : 11 semaines."
+      },
+      {
+        "titre": "Diagnostic RPS : ce que les données disent",
+        "contenu": "• Taux d'absentéisme : 9,4 % (secteur digital : 5,2 %)\n• 2 démissions en équipe Content / 3 arrêts longue durée Marketing en 12 mois\n• Turn-over global : 18 % sur 12 mois\n• 61 % des répondants au questionnaire Yassine déclarent \"souvent\" ou \"très souvent\" stressés\n• 4 signalements de burn-out au médecin du travail depuis 6 mois"
+      },
+      {
+        "titre": "Non-conformités identifiées",
+        "contenu": "1. CSE non constitué malgré franchissement 50 ETP en septembre 2024\n2. DUERP non mis à jour depuis 14 mois (obligation annuelle)\n3. Politique QVCT inexistante — aucune procédure d'alerte RPS formalisée\n4. Index égalité H/F non calculé (obligatoire dès 50 ETP)\n5. Accord télétravail sans consultation des salariés"
+      },
+      {
+        "titre": "Plan d'action QVCT prioritaire (11 semaines)",
+        "contenu": "S1-S3 : Lancement élections CSE + mise à jour DUERP\nS4-S6 : Plan prévention RPS (identification facteurs, procédure alerte, formations managers)\nS7-S9 : Actions QVCT terrain (baromètre structuré, entretiens individuels, groupes de travail)\nS10-S11 : Indicateurs de suivi + rapport à Jakob Rein"
+      },
+      {
+        "titre": "Indicateurs de pilotage retenus",
+        "contenu": "Taux d'absentéisme cible ≤ 6 % à 6 mois · Taux de satisfaction baromètre ≥ 65 % · Turn-over cible ≤ 12 % · Index H/F calculé et publié avant le 31 mars"
+      }
+    ]
+  },
+  {
+    "id": "veille",
+    "title": "Veille concurrentielle",
+    "tab": "Veille concurrentielle",
+    "accent": "#1a6641",
+    "type": "rich",
+    "pages": [
+      {
+        "kicker": "Lundi 14 avril 2025",
+        "title": "Veille concurrentielle",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Veille juridique RH — Environnement professionnel et relations sociales\nMars 2025 — Périmètre : RPS, QVCT, CSE, RSE\nSource : Code du travail, circulaires INRS, jurisprudence Cour de cassation"
+          },
+          {
+            "type": "h3",
+            "text": "RPS ET OBLIGATIONS EMPLOYEUR"
+          },
+          {
+            "type": "p",
+            "text": "L'employeur est tenu d'une obligation de résultat en matière de sécurité et de protection de la santé des salariés (Cass. soc., 28 février 2002). Cette obligation s'étend aux risques psychosociaux depuis l'accord national interprofessionnel du 2 juillet 2008. Le Document Unique d'Évaluation des Risques Professionnels doit être mis à jour annuellement et inclure une évaluation des facteurs de risques psychosociaux. Absence de mise à jour = infraction pouvant entraîner mise en demeure de l'inspection du travail."
+          },
+          {
+            "type": "h3",
+            "text": "CSE : OBLIGATIONS ET SANCTIONS"
+          },
+          {
+            "type": "p",
+            "text": "Dès le franchissement du seuil de 11 ETP pendant 12 mois consécutifs, l'employeur doit organiser les élections du CSE (L.2311-2). Au seuil de 50 ETP : compétences élargies du CSE (consultations obligatoires sur organisation, politique sociale, etc.). Absence d'organisation des élections = délit d'entrave, passible de 7 500 € d'amende et 1 an de prison. Prescription : 6 ans."
+          },
+          {
+            "type": "h3",
+            "text": "PLAN D'ACTION QVCT"
+          },
+          {
+            "type": "p",
+            "text": "Depuis l'ANI du 9 décembre 2020, la QVCT (ex-QVT) intègre l'égalité professionnelle, le droit à la déconnexion et l'organisation du travail. Un plan QVCT doit comprendre : diagnostic de situation, objectifs chiffrés, actions concrètes, indicateurs de suivi, évaluation. Sans CSE, consultation des salariés directement via une enquête ou des groupes de travail."
+          },
+          {
+            "type": "h3",
+            "text": "INDICE RSE ET OBLIGATIONS DE COMMUNICATION"
+          },
+          {
+            "type": "p",
+            "text": "Malgré l'absence d'obligation légale spécifique pour les PME, Northgate Capital (investisseur) conditionne le financement à des indicateurs RSE mesurables. Indicateurs retenus par le secteur : taux de formation, pourcentage de femmes dans l'encadrement, investissement QVCT par salarié, politique handicap."
+          }
+        ]
+      }
+    ]
+  }
+];
+  D.guide = {
+  "tips": [
+    {
+      "day": "Acte 1",
+      "title": "URGENT — Feuille de route RH avant le 30 juin : e…",
+      "body": "Déclencheur principal de la mission. Théo expose la pression de Jakob Rein, le retard sur le CSE et demande à la RRH un dossier complet QVCT + conformité sociale en 11 semaines. Ton directif, légère panique dissimulée."
+    },
+    {
+      "day": "Acte 1",
+      "title": "Données sociales T1 2025 — Lumio Health (export S…",
+      "body": "Fournit les données chiffrées clés : taux d'absentéisme 9,4 %, 2 démissions Content, 3 arrêts maladie longue durée Marketing, turn-over 18 % sur 12 mois, 6 heures sup non récupérées en moyenne par semaine. Sert de base factuelle pour 2.1, 2.2, 2.3 et 2.4."
+    },
+    {
+      "day": "Acte 2",
+      "title": "Résultats de mon petit sondage 😬 — à discuter en…",
+      "body": "Yassine a diffusé un questionnaire maison sur le bien-être au travail sans validation RH. 61 % des répondants déclarent se sentir 'souvent stressés', 44 % jugent la charge de travail 'excessive'. Le post a généré 23 réactions emoji dont plusieurs 🔥 et 😬. Crée une tension sur la légitimité et la méthodologie de l'évaluation du climat social (2.3)."
+    },
+    {
+      "day": "Acte 2",
+      "title": "Mise en demeure informelle — Obligation de mise e…",
+      "body": "Les cadres formalisent par écrit leur demande de mise en place immédiate du CSE, rappelant que le seuil de 50 salariés a été franchi en août 2024 et que l'entreprise est en infraction depuis 8 mois. Ils mentionnent avoir contacté l'inspection du travail à titre informatif. Déclenche l'urgence juridique pour 2.7 et 2.8."
+    },
+    {
+      "day": "Acte 3",
+      "title": "Point stratégique : tension Marketing / B2B et po…",
+      "body": "Sonia Ferracci (DirMkt) et Camille Ott (B2B) s'opposent ouvertement sur la répartition des primes liées au partenariat Northgate. Théo tente de modérer sans trancher. Le compte-rendu montre des zones grises sur les critères d'attribution des augmentations — matière directe pour 2.2 (RPS conflits interpersonnels), 2.3 (sources d'insatisfaction) et 2.9 (point de blocage en négociation)."
+    },
+    {
+      "day": "Acte 3",
+      "title": "Due diligence sociale — checklist pré-déblocage t…",
+      "body": "Jakob liste les 8 points que Northgate vérifiera avant de débloquer les 6 M€ : CSE constitué, DUERP à jour, politique QVCT formalisée, indicateurs RSE publiés, index égalité H/F calculé, accord télétravail, plan de formation 2025 validé, note de synthèse droit social. Document de référence pour l'ensemble du dossier, crée l'enjeu de performance pour 2.5 et 2.6."
+    },
+    {
+      "day": "Acte 4",
+      "title": "Bilan de la visite périodique de l'entreprise — L…",
+      "body": "Le médecin du travail signale : 4 signalements de syndrome d'épuisement professionnel sur 6 mois, absence de référent RPS identifié, postes de travail en open space non conformes aux normes acoustiques. Elle recommande formellement la mise à jour du DUERP et la désignation d'un référent RPS avant fin mai 2025. Document clé pour 2.1 et 2.2."
+    },
+    {
+      "day": "Acte 5",
+      "title": "En off — ce que je n'ai pas dit en CoDir",
+      "body": "Sonia confie à la RRH que deux membres de son équipe lui ont dit chercher activement un autre poste, que la pression exercée par Théo depuis la levée de fonds a changé l'ambiance, et qu'elle-même ressent une 'fatigue managériale'. Elle demande si un accompagnement confidentiel est possible. Alimente 2.3 (évaluation climat social) et 2.4 (plan QVCT incluant soutien managérial)."
+    }
+  ]
+};
+  D.portraits = [
+  {
+    "key": "theo_marczak",
+    "title": "Théo Marczak",
+    "file": "portraits/portrait_theo_marczak.html"
+  },
+  {
+    "key": "sonia_ferracci",
+    "title": "Sonia Ferracci",
+    "file": "portraits/portrait_sonia_ferracci.html"
+  },
+  {
+    "key": "camille_ott",
+    "title": "Camille Ott",
+    "file": "portraits/portrait_camille_ott.html"
+  },
+  {
+    "key": "jakob_rein",
+    "title": "Jakob Rein",
+    "file": "portraits/portrait_jakob_rein.html"
+  },
+  {
+    "key": "yassine_morel",
+    "title": "Yassine Morel",
+    "file": "portraits/portrait_yassine_morel.html"
+  }
+];
+  D.finder = D.finder || { folders: {}, order: [] };
+  D.finder.folders.portraits = {
+  "title": "Portraits",
+  "sidebar": "👥 Portraits",
+  "icon": "👥",
+  "items": [
+    {
+      "kind": "portrait",
+      "name": "Théo Marczak",
+      "app": "browser",
+      "props": {
+        "openPortrait": "theo_marczak"
+      }
+    },
+    {
+      "kind": "portrait",
+      "name": "Sonia Ferracci",
+      "app": "browser",
+      "props": {
+        "openPortrait": "sonia_ferracci"
+      }
+    },
+    {
+      "kind": "portrait",
+      "name": "Camille Ott",
+      "app": "browser",
+      "props": {
+        "openPortrait": "camille_ott"
+      }
+    },
+    {
+      "kind": "portrait",
+      "name": "Jakob Rein",
+      "app": "browser",
+      "props": {
+        "openPortrait": "jakob_rein"
+      }
+    },
+    {
+      "kind": "portrait",
+      "name": "Yassine Morel",
+      "app": "browser",
+      "props": {
+        "openPortrait": "yassine_morel"
+      }
+    }
+  ]
+};
+  if (D.finder.order.indexOf('portraits') === -1) {
+    var gIdx = D.finder.order.indexOf('guide');
+    D.finder.order.splice(gIdx >= 0 ? gIdx + 1 : 0, 0, 'portraits');
+  }
+})();
+// === [Chantier PDF+Browser] fin ===
